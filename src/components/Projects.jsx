@@ -10,73 +10,75 @@ gsap.registerPlugin(ScrollTrigger);
 const Projects = () => {
     const { t } = useLanguage();
 
+    const translatedProjects = Array.isArray(t('projects.items')) ? t('projects.items') : [];
+
     const projectsData = [
     {
         id: 1,
-        title: "Yalla Store",
+        title: translatedProjects[0]?.title || "Yalla Store",
         tech: [
             { name: "Next.js 15", icon: "fab fa-react", color: "#ffffff" },
             { name: "Tailwind v4", icon: "fas fa-wind", color: "#06B6D4" },
             { name: "PostgreSQL", icon: "fas fa-database", color: "#336791" },
             { name: "Zustand", icon: "fas fa-cogs", color: "#F7DF1E" }
         ],
-        desc: "Sistem e-commerce berskala besar (Enterprise-Grade) yang mengusung performa tinggi dan keamanan tingkat mutakhir. Menggunakan Server Actions untuk eksekusi sisi server yang aman, dikombinasikan dengan Drizzle ORM (Type-Safe) dan manajemen state ringan dari Zustand. Ini adalah solusi bisnis end-to-end yang menjamin transaksi cepat dan andal.",
-        features: ["Sistem Autentikasi Super Aman dengan Better Auth", "Optimasi Gambar Cloudinary & Validasi Zod", "Arsitektur Fullstack modern siap produksi"],
+        desc: translatedProjects[0]?.desc || "Sistem e-commerce berskala besar (Enterprise-Grade) yang mengusung performa tinggi dan keamanan tingkat mutakhir. Menggunakan Server Actions untuk eksekusi sisi server yang aman, dikombinasikan dengan Drizzle ORM (Type-Safe) dan manajemen state ringan dari Zustand. Ini adalah solusi bisnis end-to-end yang menjamin transaksi cepat dan andal.",
+        features: translatedProjects[0]?.features || ["Sistem Autentikasi Super Aman dengan Better Auth", "Optimasi Gambar Cloudinary & Validasi Zod", "Arsitektur Fullstack modern siap produksi"],
         images: ["yallastore-1.png", "yallastore-2.png", "yallastore-3.png", "yallastore-4.png", "yallastore-5.png", "yallastore-6.png"],
         layout: "vertical",
         link: "https://yallastore.my.id"
     },
     {
         id: 2,
-        title: "Amar Rental Mobil",
+        title: translatedProjects[1]?.title || "Amar Rental Mobil",
         tech: [
             { name: "Next.js App Router", icon: "fab fa-react", color: "#ffffff" },
             { name: "Laravel", icon: "fab fa-laravel", color: "#FF2D20" },
             { name: "MySQL", icon: "fas fa-database", color: "#4479A1" }
         ],
-        desc: "Platform enterprise dengan arsitektur terpisah (Decoupled Client-Server). Frontend dibangun secara khusus demi mencapai optimasi SEO (Search Engine Optimization) sempurna dan interaksi kilat. Didukung oleh Backend Laravel yang kokoh dengan proteksi keamanan API kelas atas (Sanctum Token), sistem ini siap menangani lonjakan transaksi dengan latensi minimal.",
-        features: ["RESTful API Integration dengan perlindungan CORS", "Graceful Degradation untuk stabilitas saat sinyal lemah", "SQL Injection Protection & Security Headers"],
+        desc: translatedProjects[1]?.desc || "Platform enterprise dengan arsitektur terpisah (Decoupled Client-Server). Frontend dibangun secara khusus demi mencapai optimasi SEO (Search Engine Optimization) sempurna dan interaksi kilat. Didukung oleh Backend Laravel yang kokoh dengan proteksi keamanan API kelas atas (Sanctum Token), sistem ini siap menangani lonjakan transaksi dengan latensi minimal.",
+        features: translatedProjects[1]?.features || ["RESTful API Integration dengan perlindungan CORS", "Graceful Degradation untuk stabilitas saat sinyal lemah", "SQL Injection Protection & Security Headers"],
         images: ["amarrental-1.png", "amarrental-2.png", "amarrental-3.png", "amarrental-4.png", "amarrental-5.png", "amarrental-6.png"],
         layout: "vertical",
         link: "https://amar-rental.my.id"
     },
     {
         id: 3,
-        title: "Tournament Piala Dunia 2026 (Real Time Data)",
+        title: translatedProjects[2]?.title || "Tournament Piala Dunia 2026",
         tech: [
             { name: "Vanilla JS", icon: "fab fa-js", color: "#F7DF1E" },
             { name: "REST API", icon: "fas fa-network-wired", color: "#009688" },
             { name: "HTML/CSS", icon: "fab fa-html5", color: "#E34F26" }
         ],
-        desc: "Aplikasi web interaktif berdesain Luxury Gold Sports UI. Dirancang dengan fokus pada efisiensi pemrosesan data, platform ini mampu menarik dan memperbarui statistik dari server (API eksternal) secara real-time dan asinkron tanpa membebani browser. Sebuah demonstrasi keahlian manipulasi DOM tingkat lanjut untuk menghadirkan pengalaman pengguna yang instan tanpa jeda pemuatan.",
-        features: ["Seamless Video Transition Loading System", "Live Data Polling & Auto-Update Mechanisms", "Sistem Kuis Interaktif berbasis DOM kilat"],
+        desc: translatedProjects[2]?.desc || "Aplikasi web interaktif berdesain Luxury Gold Sports UI. Dirancang dengan fokus pada efisiensi pemrosesan data, platform ini mampu menarik dan memperbarui statistik dari server (API eksternal) secara real-time dan asinkron tanpa membebani browser. Sebuah demonstrasi keahlian manipulasi DOM tingkat lanjut untuk menghadirkan pengalaman pengguna yang instan tanpa jeda pemuatan.",
+        features: translatedProjects[2]?.features || ["Seamless Video Transition Loading System", "Live Data Polling & Auto-Update Mechanisms", "Sistem Kuis Interaktif berbasis DOM kilat"],
         images: ["vivamustofa-1.png", "vivamustofa-2.png", "vivamustofa-3.png", "vivamustofa-4.png"],
         link: "https://vivamustofa.my.id"
     },
     {
         id: 4,
-        title: "Kylian Mbappe Profil",
+        title: translatedProjects[3]?.title || "Kylian Mbappe Profil",
         tech: [
             { name: "HTML5", icon: "fab fa-html5", color: "#E34F26" },
             { name: "CSS3", icon: "fab fa-css3-alt", color: "#1572B6" },
             { name: "Vanilla JS", icon: "fab fa-js", color: "#F7DF1E" }
         ],
-        desc: "Sebuah mahakarya landing page interaktif dengan performa maksimal. Dibangun murni tanpa mengandalkan framework berat, menghasilkan waktu muat (load time) instan dan pengalaman pengguna yang luar biasa mulus. Desain ini menerapkan estetika Glassmorphism premium yang memberikan sentuhan visual eksklusif, dirancang khusus untuk meningkatkan konversi dan merepresentasikan brand berkelas internasional.",
-        features: ["Zero-Dependency Architecture untuk performa 100%", "Animasi Micro-Interactions manual yang elegan", "Pixel-Perfect Responsive Design"],
+        desc: translatedProjects[3]?.desc || "Sebuah mahakarya landing page interaktif dengan performa maksimal. Dibangun murni tanpa mengandalkan framework berat, menghasilkan waktu muat (load time) instan dan pengalaman pengguna yang luar biasa mulus. Desain ini menerapkan estetika Glassmorphism premium yang memberikan sentuhan visual eksklusif, dirancang khusus untuk meningkatkan konversi dan merepresentasikan brand berkelas internasional.",
+        features: translatedProjects[3]?.features || ["Zero-Dependency Architecture untuk performa 100%", "Animasi Micro-Interactions manual yang elegan", "Pixel-Perfect Responsive Design"],
         images: ["mbappe-1.png", "mbappe-2.png", "mbappe-3.png", "mbappe-4.png"],
         link: "https://mustofaalatasss.github.io/CV-Mbappe/"
     },
     {
         id: 5,
-        title: "Fanbase Rockstar",
+        title: translatedProjects[4]?.title || "Fanbase Rockstar",
         tech: [
             { name: "React 19", icon: "fab fa-react", color: "#61DAFB" },
             { name: "TypeScript", icon: "fas fa-code", color: "#3178C6" },
             { name: "GSAP", icon: "fas fa-magic", color: "#88CE02" },
             { name: "Vanilla CSS", icon: "fab fa-css3-alt", color: "#1572B6" }
         ],
-        desc: "Platform komunitas dengan arsitektur berkinerja tinggi. Proyek ini mendemonstrasikan keahlian tingkat lanjut dalam merancang animasi modern (GSAP) untuk menciptakan efek Scroll-Scrubbing sinematik, memberikan impresi visual mendalam layaknya sebuah video game AAA. Sangat cocok untuk campaign pemasaran yang membutuhkan interaksi pengguna tingkat tinggi.",
-        features: ["Advanced DOM Masking & Radial Reveal Effects", "React Hook teroptimasi untuk stabilitas 60 FPS", "Arsitektur UI modular dan sangat scalable"],
+        desc: translatedProjects[4]?.desc || "Platform komunitas dengan arsitektur berkinerja tinggi. Proyek ini mendemonstrasikan keahlian tingkat lanjut dalam merancang animasi modern (GSAP) untuk menciptakan efek Scroll-Scrubbing sinematik, memberikan impresi visual mendalam layaknya sebuah video game AAA. Sangat cocok untuk campaign pemasaran yang membutuhkan interaksi pengguna tingkat tinggi.",
+        features: translatedProjects[4]?.features || ["Advanced DOM Masking & Radial Reveal Effects", "React Hook teroptimasi untuk stabilitas 60 FPS", "Arsitektur UI modular dan sangat scalable"],
         images: ["rockstar-1.png", "rockstar-2.png", "rockstar-3.png", "rockstar-4.png"],
         link: "https://fanbaserockstar.web.id"
     }
