@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mustofa Alatas | Full Stack Developer</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Outfit:wght@400;600;800&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">Mustofa<span class="highlight">.dev</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Beranda</a></li>
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#projects">Karya</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+        <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="video-container">
+            <video autoplay loop muted playsinline class="bg-video">
+                <source src="assets/buat_saat_di_depan_monitor_itu-ezremove.mp4" type="video/mp4">
+            </video>
+            <div class="video-overlay"></div>
+        </div>
+        
+        <div class="hero-content">
+            <h2 class="gsap-reveal tagline-sub">Membangun Masa Depan Digital</h2>
+            <h1 class="gsap-reveal tagline-main">Crafting Digital <span class="highlight">Excellence.</span></h1>
+            <p class="gsap-reveal tagline-desc">Saya <span class="highlight-text">Mustofa Alatas</span>, Full Stack Developer yang berdedikasi menciptakan aplikasi web modern, cepat, dan elegan.</p>
+            <div class="gsap-reveal hero-buttons">
+                <a href="#projects" class="btn btn-primary">Lihat Karya Saya</a>
+                <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <i class="fas fa-chevron-down animated-bounce"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title gsap-slide-up">Mengenal Lebih Dekat</h2>
+            <div class="about-grid">
+                <div class="about-text gsap-slide-right">
+                    <h3>Dari Frontend Interaktif hingga Backend yang Kokoh.</h3>
+                    <p>Sebagai Full Stack Developer, saya tidak hanya membangun tampilan antarmuka yang memanjakan mata, tetapi juga merancang sistem di balik layar (backend) yang tangguh, aman, dan dapat diskalakan.</p>
+                    <p>Spesialisasi saya mencakup penggunaan teknologi web modern (Vanilla JS, React, Next.js) hingga arsitektur server (Laravel, Node.js) dan basis data (PostgreSQL, MySQL).</p>
+                    
+                    <div class="tech-stack">
+                        <span class="tech-tag"><i class="fab fa-js"></i> JavaScript/TS</span>
+                        <span class="tech-tag"><i class="fab fa-react"></i> React & Next.js</span>
+                        <span class="tech-tag"><i class="fab fa-php"></i> PHP & Laravel</span>
+                        <span class="tech-tag"><i class="fas fa-database"></i> SQL / ORM</span>
+                        <span class="tech-tag"><i class="fas fa-paint-brush"></i> GSAP & CSS3</span>
+                    </div>
+                </div>
+                <div class="about-visual gsap-slide-left">
+                    <div class="glass-card aesthetic-card">
+                        <i class="fas fa-code main-icon"></i>
+                        <h4>Clean Code Philosophy</h4>
+                        <p>Mengedepankan penulisan kode yang bersih, mudah dirawat, dan memiliki performa tinggi tanpa membebani server.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title gsap-slide-up">Karya Terbaik</h2>
+            <p class="section-subtitle gsap-slide-up">Koleksi proyek pilihan yang menunjukkan perpaduan antara desain premium dan rekayasa perangkat lunak modern.</p>
+            
+            <div class="project-timeline">
+                
+                <!-- Project 1 -->
+                <div class="project-card gsap-project">
+                    <div class="project-info">
+                        <h3 class="project-title">Kylian Mbappe Profil</h3>
+                        <div class="project-tech">Vanilla HTML5 | Custom CSS3 | Vanilla JS</div>
+                        <p class="project-desc">Website landing page tipe statis yang menonjolkan <strong>Premium Design</strong> dengan efek glassmorphism. Dirancang 100% menggunakan kode murni (tanpa framework) sehingga sangat ringan, responsif tanpa loading (lag), dan memiliki Fallback Image Mechanism cerdas.</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check-circle"></i> Clean Code & Bebas Database</li>
+                            <li><i class="fas fa-check-circle"></i> Animasi Mulus Manual</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card gsap-project reverse">
+                    <div class="project-info">
+                        <h3 class="project-title">Fanbase Rockstar</h3>
+                        <div class="project-tech">React | TypeScript | GSAP | Vanilla CSS</div>
+                        <p class="project-desc">Website dengan arsitektur ganda. Fondasi luar super ringan menggunakan HTML/CSS murni dengan warna tema khas Rockstar Games. Komponen hero menggunakan standar industri modern (React+TS) dan mesin animasi <strong>GSAP</strong> untuk efek Scroll-Scrubbing sinematik layaknya video game.</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check-circle"></i> Advanced Masking & Radial Reveal</li>
+                            <li><i class="fas fa-check-circle"></i> GSAP React Hook Anti Lag</li>
+                        </ul>
+                        <a href="https://fanbaserockstar.web.id" target="_blank" class="btn btn-outline">Kunjungi <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card gsap-project">
+                    <div class="project-info">
+                        <h3 class="project-title">Viva Mustofa</h3>
+                        <div class="project-tech">Pure Vanilla Stack | API Integration</div>
+                        <p class="project-desc">Website bertema Piala Dunia dengan antarmuka <strong>Luxury Gold Sports UI</strong>. Memiliki fitur paling canggih: <em>Sistem Real-Time Auto-Update</em> untuk menarik data skor secara diam-diam (background) setiap 30 detik. Juga dilengkapi sistem kuis interaktif berbasis DOM Manipulation.</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check-circle"></i> Seamless Video Transition Loading</li>
+                            <li><i class="fas fa-check-circle"></i> Live Data Integration tanpa Refresh</li>
+                        </ul>
+                        <a href="https://vivamustofa.my.id" target="_blank" class="btn btn-outline">Kunjungi <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card gsap-project reverse">
+                    <div class="project-info">
+                        <h3 class="project-title">Yalla Store</h3>
+                        <div class="project-tech">Next.js 16 | Tailwind v4 | PostgreSQL | Zustand</div>
+                        <p class="project-desc">Aplikasi Fullstack skala besar e-commerce. Memadukan keunggulan React 19, Drizzle ORM yang ringan & *type-safe*, serta Better Auth untuk keamanan. Dilengkapi animasi GSAP pada Cinematic Banner dan pengelolaan tema cerdas menggunakan Next Themes.</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check-circle"></i> Turbopack & Server Actions</li>
+                            <li><i class="fas fa-check-circle"></i> Cloudinary & Zod Validation</li>
+                        </ul>
+                        <a href="https://yallastore.my.id" target="_blank" class="btn btn-outline">Kunjungi <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card gsap-project">
+                    <div class="project-info">
+                        <h3 class="project-title">Amar Rental Mobil</h3>
+                        <div class="project-tech">Next.js (Frontend) | Laravel API (Backend)</div>
+                        <p class="project-desc">Sistem tingkat enterprise menggunakan <strong>Client-Server Architecture (Decoupled)</strong>. Bagian depan sangat cepat (SEO Friendly) dan bagian belakang sangat kokoh. Memiliki lapisan keamanan maksimal menggunakan Autentikasi Token (Sanctum), proteksi CORS, dan SQL Injection Protection.</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check-circle"></i> Graceful Degradation (Anti Layar Putih)</li>
+                            <li><i class="fas fa-check-circle"></i> RESTful API Real-time Connection</li>
+                        </ul>
+                        <a href="https://amar-rental.my.id" target="_blank" class="btn btn-outline">Kunjungi <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="glass-card contact-wrapper gsap-slide-up">
+                <h2>Mari Berkolaborasi!</h2>
+                <p>Apakah Anda memiliki ide proyek yang luar biasa? Atau sekadar ingin berdiskusi seputar teknologi web? Jangan ragu untuk menghubungi saya.</p>
+                
+                <div class="social-links">
+                    <a href="#" class="social-btn"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-btn"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-btn"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Mustofa Alatas. All Rights Reserved. Crafted with <i class="fas fa-heart highlight"></i> and Clean Code.</p>
+    </footer>
+
+    <!-- GSAP & Plugins -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
