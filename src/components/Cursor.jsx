@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import { createPortal } from 'react-dom';
 import gsap from 'gsap';
 
 const Cursor = () => {
@@ -55,11 +56,12 @@ const Cursor = () => {
         };
     }, []);
 
-    return (
-        <div ref={cursorRef} className="custom-cursor-wrapper">
-            <div className="custom-cursor-shape"></div>
-        </div>
-    );
-};
+        return createPortal(
+            <div ref={cursorRef} className="custom-cursor-wrapper">
+                <div className="custom-cursor-shape"></div>
+            </div>,
+            document.body
+        );
+    };
 
 export default Cursor;
