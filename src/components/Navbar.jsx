@@ -5,6 +5,7 @@ import { useLanguage } from '../context/LanguageContext';
 const Navbar = ({ theme, toggleTheme }) => {
     const { language, changeLanguage, t } = useLanguage();
     const [scrolled, setScrolled] = useState(false);
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
     useEffect(() => {
         const handleScroll = () => {
@@ -19,16 +20,33 @@ const Navbar = ({ theme, toggleTheme }) => {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
+    // Prevent body scroll when mobile menu is open
+    useEffect(() => {
+        if (isMobileMenuOpen) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = 'auto';
+        }
+    }, [isMobileMenuOpen]);
+
     const handleLanguageChange = (e) => {
         changeLanguage(e.target.value);
     };
 
+    const toggleMobileMenu = () => {
+        setIsMobileMenuOpen(!isMobileMenuOpen);
+    };
+
+    const closeMobileMenu = () => {
+        setIsMobileMenuOpen(false);
+    };
 
     return (
         <header className={`header-wrapper ${scrolled ? 'scrolled' : ''}`}>
             <div className="logo">Mustofa <span className="highlight">Alatas</span></div>
             
-            <nav className="navbar-dock">
+            {/* Desktop Navigation */}
+            <nav className="navbar-dock desktop-only">
                 <Magnetic>
                     <div className="nav-logo-circle">
                         <span style={{ fontFamily: "'Syne', sans-serif", fontWeight: '800', fontSize: '1.4rem' }}>M</span>
@@ -66,6 +84,44 @@ const Navbar = ({ theme, toggleTheme }) => {
                     </a>
                 </Magnetic>
             </nav>
+
+            {/* Mobile Hamburger Button */}
+            <button className={`mobile-menu-btn ${isMobileMenuOpen ? 'open' : ''}`} onClick={toggleMobileMenu}>
+                <div className="hamburger-line"></div>
+                <div className="hamburger-line"></div>
+                <div className="hamburger-line"></div>
+            </button>
+
+            {/* Mobile Overlay Menu */}
+            <div className={`mobile-overlay-menu ${isMobileMenuOpen ? 'open' : ''}`}>
+                <div className="mobile-menu-content">
+                    <ul className="mobile-nav-links">
+                        <li><a href="#home" onClick={closeMobileMenu}>{t('nav.home')}</a></li>
+                        <li><a href="#projects" onClick={closeMobileMenu}>{t('nav.portfolio')}</a></li>
+                        <li><a href="#about" onClick={closeMobileMenu}>{t('nav.about')}</a></li>
+                        <li><a href="#contact" onClick={closeMobileMenu}>{t('nav.contact')}</a></li>
+                    </ul>
+                    
+                    <div className="mobile-menu-controls">
+                        <button className="mobile-theme-toggle" onClick={toggleTheme}>
+                            <i className="fas fa-circle-half-stroke"></i> Tema Gelap/Terang
+                        </button>
+                        
+                        <select className="mobile-lang-select" onChange={(e) => { handleLanguageChange(e); closeMobileMenu(); }} value={language}>
+                            <option value="id">🇮🇩 Indonesia</option>
+                            <option value="en">🇬🇧 English</option>
+                            <option value="ar">🇸🇦 العربية</option>
+                            <option value="zh-CN">🇨🇳 中文</option>
+                            <option value="ja">🇯🇵 日本語</option>
+                            <option value="es">🇪🇸 Español</option>
+                        </select>
+                    </div>
+
+                    <a href="#contact" className="btn btn-primary" style={{ marginTop: '2.5rem', width: '100%', maxWidth: '250px', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '0.5rem' }} onClick={closeMobileMenu}>
+                        <i className="far fa-envelope"></i> {t('nav.btn_contact')}
+                    </a>
+                </div>
+            </div>
         </header>
     );
 };

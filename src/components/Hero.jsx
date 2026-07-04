@@ -26,8 +26,8 @@ const Hero = ({ isAppLoaded }) => {
             "-=0.8"
         )
         .fromTo(".hero-socials",
-            { xPercent: -50, y: 20, opacity: 0 },
-            { xPercent: -50, y: 0, opacity: 1, duration: 1 },
+            { y: 20, opacity: 0 },
+            { y: 0, opacity: 1, duration: 1 },
             "-=0.8"
         )
         .fromTo(".scroll-indicator",
