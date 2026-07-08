@@ -103,7 +103,7 @@ const Hero = ({ isAppLoaded }) => {
                 
                 <div className="hero-socials">
                     <a href="https://www.instagram.com/mustofaalatas_/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
-                    <a href="#"><i className="fab fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/mustofa-alatas-56bb89334/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
                     <a href="mailto:mustofaalatasss@gmail.com" title="Kirim Email"><i className="fas fa-envelope"></i></a>
                 </div>
                 
