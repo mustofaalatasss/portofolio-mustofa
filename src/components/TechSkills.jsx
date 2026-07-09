@@ -21,6 +21,7 @@ const backendSkills = [
     { name: 'Express.js', icon: 'fas fa-server', color: '#FFFFFF' },
     { name: 'MySQL', icon: 'fas fa-database', color: '#4479A1' },
     { name: 'PostgreSQL', icon: 'fas fa-database', color: '#336791' },
+    { name: 'Golang', icon: 'fab fa-golang', color: '#00ADD8' },
     { name: 'Git & GitHub', icon: 'fab fa-git-alt', color: '#F05032' },
 ];
 
