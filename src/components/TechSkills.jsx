@@ -22,6 +22,9 @@ const backendSkills = [
     { name: 'MySQL', icon: 'fas fa-database', color: '#4479A1' },
     { name: 'PostgreSQL', icon: 'fas fa-database', color: '#336791' },
     { name: 'Golang', icon: 'fab fa-golang', color: '#00ADD8' },
+    { name: 'Supabase', icon: 'fas fa-database', color: '#3ECF8E' },
+    { name: 'Prisma', icon: 'fas fa-layer-group', color: '#2D3748' },
+    { name: 'Drizzle ORM', icon: 'fas fa-tint', color: '#C5F74F' },
     { name: 'Git & GitHub', icon: 'fab fa-git-alt', color: '#F05032' },
 ];
 
