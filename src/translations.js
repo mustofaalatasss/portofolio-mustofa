@@ -58,6 +58,11 @@ export const translations = {
                     title: "Fanbase Rockstar",
                     desc: "Platform komunitas dengan arsitektur berkinerja tinggi. Proyek ini mendemonstrasikan keahlian tingkat lanjut dalam merancang animasi modern (GSAP) untuk menciptakan efek Scroll-Scrubbing sinematik, memberikan impresi visual mendalam layaknya sebuah video game AAA. Sangat cocok untuk campaign pemasaran yang membutuhkan interaksi pengguna tingkat tinggi.",
                     features: ["Advanced DOM Masking & Radial Reveal Effects", "React Hook teroptimasi untuk stabilitas 60 FPS", "Arsitektur UI modular dan sangat scalable"]
+                },
+                {
+                    title: "Joka Joki - VIP E-Sports Management System",
+                    desc: "Sebuah sistem manajemen operasional skala Enterprise yang dibangun untuk Agensi Game Boosting & E-Sports Coaching profesional. Web aplikasi Full-stack ini menyederhanakan seluruh alur bisnis, dilengkapi dengan sistem pelacakan antrean pesanan (live queue), pemrosesan order, dan Dashboard Admin komprehensif untuk mengelola klien dan transaksi harian. Dirancang dengan arsitektur tangguh untuk menjamin privasi data, keamanan tingkat tinggi, dan performa super cepat",
+                    features: ["Sistem Manajemen Antrean (Queue System) Terstruktur", "Dashboard Admin Komprehensif (Manajemen Pelanggan & Riwayat Order)", "Arsitektur Database Type-Safe yang Aman dengan Prisma ORM", "Optimasi SEO Mendalam (Search Engine Optimized)", "Desain UI/UX Premium yang Responsif di Semua Perangkat"]
                 }
             ]
         },
@@ -156,6 +161,11 @@ export const translations = {
                     title: "Rockstar Fanbase",
                     desc: "Community platform with high-performance architecture. This project demonstrates advanced skills in designing modern animations (GSAP) to create cinematic Scroll-Scrubbing effects, providing a deep visual impression like a AAA video game. Perfect for marketing campaigns requiring high-level user interaction.",
                     features: ["Advanced DOM Masking & Radial Reveal Effects", "Optimized React Hook for 60 FPS stability", "Modular and highly scalable UI architecture"]
+                },
+                {
+                    title: "Joka Joki - VIP E-Sports Management System",
+                    desc: "An Enterprise-scale operational management system built for professional Game Boosting & E-Sports Coaching Agencies. This Full-stack web application streamlines the entire business workflow, equipped with a live order queue tracking system, order processing, and a comprehensive Admin Dashboard to manage clients and daily transactions. Designed with a robust architecture to ensure data privacy, high-level security, and ultra-fast performance.",
+                    features: ["Structured Queue Management System", "Comprehensive Admin Dashboard (Customer & Order History Management)", "Secure Type-Safe Database Architecture with Prisma ORM", "Deep SEO Optimization (Search Engine Optimized)", "Premium Responsive UI/UX Design on All Devices"]
                 }
             ]
         },
@@ -254,6 +264,11 @@ export const translations = {
                     title: "قاعدة جماهير روكستار",
                     desc: "منصة مجتمعية بهندسة عالية الأداء. يوضح هذا المشروع مهارات متقدمة في تصميم الرسوم المتحركة الحديثة (GSAP) لإنشاء تأثيرات سينمائية مبهرة، مما يوفر انطباعاً بصرياً عميقاً مثل لعبة فيديو حديثة. مثالي للحملات التسويقية التي تتطلب تفاعلاً عالياً من المستخدم.",
                     features: ["إخفاء DOM المتقدم وتأثيرات الكشف الشعاعي", "React Hook محسن لاستقرار 60 إطاراً في الثانية", "بنية واجهة مستخدم معيارية وقابلة للتطوير"]
+                },
+                {
+                    title: "جوكا جوكي - نظام إدارة الرياضات الإلكترونية VIP",
+                    desc: "نظام إدارة تشغيلية على مستوى المؤسسات تم تصميمه لوكالات تعزيز الألعاب وتدريب الرياضات الإلكترونية الاحترافية. يبسط تطبيق الويب الشامل هذا سير العمل التجاري بأكمله، ومجهز بنظام تتبع قائمة انتظار الطلبات المباشرة، ومعالجة الطلبات، ولوحة تحكم إدارة شاملة لإدارة العملاء والمعاملات اليومية. مصمم ببنية قوية لضمان خصوصية البيانات، ومستوى أمان عالٍ، وأداء فائق السرعة.",
+                    features: ["نظام إدارة قائمة انتظار منظم", "لوحة تحكم إدارة شاملة (إدارة العملاء وسجل الطلبات)", "بنية قاعدة بيانات آمنة مع Prisma ORM", "تحسين محركات البحث العميق (SEO)", "تصميم واجهة مستخدم متميزة ومتجاوبة على جميع الأجهزة"]
                 }
             ]
         },

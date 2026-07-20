@@ -81,6 +81,22 @@ const Projects = () => {
             features: translatedProjects[4]?.features || ["Advanced DOM Masking & Radial Reveal Effects", "React Hook teroptimasi untuk stabilitas 60 FPS", "Arsitektur UI modular dan sangat scalable"],
             images: ["rockstar-1.png", "rockstar-2.png", "rockstar-3.png", "rockstar-4.png"],
             link: "https://fanbaserockstar.web.id"
+        },
+        {
+            id: 6,
+            title: translatedProjects[5]?.title || "Joka Joki - VIP E-Sports Management System",
+            tech: [
+                { name: "Next.js 15", icon: "fab fa-react", color: "#ffffff" },
+                { name: "Tailwind CSS", icon: "fas fa-wind", color: "#06B6D4" },
+                { name: "PostgreSQL", icon: "fas fa-database", color: "#336791" },
+                { name: "Prisma ORM", icon: "fas fa-database", color: "#5A67D8" },
+                { name: "TypeScript", icon: "fas fa-code", color: "#3178C6" }
+            ],
+            desc: translatedProjects[5]?.desc || "Sebuah sistem manajemen operasional skala Enterprise yang dibangun untuk Agensi Game Boosting & E-Sports Coaching profesional. Web aplikasi Full-stack ini menyederhanakan seluruh alur bisnis, dilengkapi dengan sistem pelacakan antrean pesanan (live queue), pemrosesan order, dan Dashboard Admin komprehensif untuk mengelola klien dan transaksi harian. Dirancang dengan arsitektur tangguh untuk menjamin privasi data, keamanan tingkat tinggi, dan performa super cepat",
+            features: translatedProjects[5]?.features || ["Sistem Manajemen Antrean (Queue System) Terstruktur", "Dashboard Admin Komprehensif (Manajemen Pelanggan & Riwayat Order)", "Arsitektur Database Type-Safe yang Aman dengan Prisma ORM", "Optimasi SEO Mendalam (Search Engine Optimized)", "Desain UI/UX Premium yang Responsif di Semua Perangkat"],
+            images: ["jokajoki-1.png", "jokajoki-2.png", "jokajoki-3.png", "jokajoki-4.png"],
+            layout: "vertical",
+            link: "https://jokajoki.my.id/"
         }
     ];
 
