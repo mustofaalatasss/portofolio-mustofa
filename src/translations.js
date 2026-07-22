@@ -36,8 +36,14 @@ export const translations = {
             items: [
                 {
                     title: "Yalla Store",
-                    desc: "Sistem e-commerce berskala besar (Enterprise-Grade) yang mengusung performa tinggi dan keamanan tingkat mutakhir. Menggunakan Server Actions untuk eksekusi sisi server yang aman, dikombinasikan dengan Drizzle ORM (Type-Safe) dan manajemen state ringan dari Zustand. Ini adalah solusi bisnis end-to-end yang menjamin transaksi cepat dan andal.",
-                    features: ["Sistem Autentikasi Super Aman dengan Better Auth", "Optimasi Gambar Cloudinary & Validasi Zod", "Arsitektur Fullstack modern siap produksi"]
+                    desc: "Sistem e-commerce berskala besar (Enterprise-Grade) yang mengusung performa tinggi dan keamanan tingkat mutakhir. Kini hadir dengan inovasi AI Customer Service yang terintegrasi mulus. Ditenagai oleh OpenAI LLM berkapabilitas memori kontekstual dan arsitektur Advanced Workflow Automation, sistem ini siap memberikan pelayanan pelanggan 24/7 secara cerdas, otomatis, dan natural layaknya manusia. Menggunakan Server Actions untuk eksekusi sisi server yang aman, dikombinasikan dengan Drizzle ORM (Type-Safe) dan manajemen state ringan dari Zustand, menjadikan Yalla Store sebagai solusi bisnis end-to-end yang menjamin transaksi super cepat, andal, dan interaktif.",
+                    features: [
+                        "Sistem Autentikasi Super Aman dengan Better Auth", 
+                        "Optimasi Gambar Cloudinary & Validasi Zod", 
+                        "Arsitektur Fullstack modern siap produksi",
+                        "AI-Powered Customer Service: Asisten virtual cerdas berbasis OpenAI dengan memori kontekstual untuk layanan pelanggan 24/7 yang natural dan responsif",
+                        "Intelligent Workflow Automation: Arsitektur backend mandiri yang mengotomatisasi logika AI dan proses bisnis tanpa membebani performa server utama"
+                    ]
                 },
                 {
                     title: "Amar Rental Mobil",
@@ -139,8 +145,14 @@ export const translations = {
             items: [
                 {
                     title: "Yalla Store",
-                    desc: "An Enterprise-Grade e-commerce system that delivers high performance and cutting-edge security. Uses Server Actions for secure server-side execution, combined with Drizzle ORM (Type-Safe) and lightweight state management from Zustand. This is an end-to-end business solution ensuring fast and reliable transactions.",
-                    features: ["Highly Secure Authentication with Better Auth", "Cloudinary Image Optimization & Zod Validation", "Production-ready modern Fullstack Architecture"]
+                    desc: "An Enterprise-Grade e-commerce system that delivers high performance and cutting-edge security. Now featuring seamlessly integrated AI Customer Service innovation. Powered by OpenAI LLM with contextual memory capabilities and an Advanced Workflow Automation architecture, this system provides 24/7 intelligent, automated, and natural human-like customer service. Using Server Actions for secure server-side execution, combined with Drizzle ORM (Type-Safe) and lightweight state management from Zustand, Yalla Store is an end-to-end business solution ensuring lightning-fast, reliable, and interactive transactions.",
+                    features: [
+                        "Highly Secure Authentication with Better Auth", 
+                        "Cloudinary Image Optimization & Zod Validation", 
+                        "Production-ready modern Fullstack Architecture",
+                        "AI-Powered Customer Service: Intelligent virtual assistant based on OpenAI with contextual memory for natural and responsive 24/7 customer support",
+                        "Intelligent Workflow Automation: Standalone backend architecture that automates AI logic and business processes without burdening main server performance"
+                    ]
                 },
                 {
                     title: "Amar Car Rental",
@@ -242,8 +254,14 @@ export const translations = {
             items: [
                 {
                     title: "متجر يلا",
-                    desc: "نظام تجارة إلكترونية على مستوى المؤسسات يوفر أداءً عالياً وأماناً متطوراً. يستخدم إجراءات الخادم للتنفيذ الآمن من جانب الخادم، إلى جانب Drizzle ORM (آمن النوع) وإدارة الحالة الخفيفة من Zustand. هذا حل أعمال متكامل يضمن معاملات سريعة وموثوقة.",
-                    features: ["مصادقة آمنة للغاية مع Better Auth", "تحسين الصور مع Cloudinary والتحقق من Zod", "بنية Fullstack حديثة جاهزة للإنتاج"]
+                    desc: "نظام تجارة إلكترونية على مستوى المؤسسات يوفر أداءً عاليًا وأمانًا متطورًا. يتميز الآن بابتكار خدمة عملاء بالذكاء الاصطناعي مدمج بسلاسة. مدعومًا بنموذج OpenAI LLM مع إمكانات الذاكرة السياقية وبنية أتمتة سير العمل المتقدمة، يوفر هذا النظام خدمة عملاء ذكية وآلية وطبيعية تشبه الإنسان على مدار الساعة طوال أيام الأسبوع. باستخدام إجراءات الخادم للتنفيذ الآمن من جانب الخادم، إلى جانب Drizzle ORM (آمن النوع) وإدارة الحالة الخفيفة من Zustand، يعد متجر يلا حل أعمال متكامل يضمن معاملات فائقة السرعة وموثوقة وتفاعلية.",
+                    features: [
+                        "مصادقة آمنة للغاية مع Better Auth", 
+                        "تحسين الصور مع Cloudinary والتحقق من Zod", 
+                        "بنية Fullstack حديثة جاهزة للإنتاج",
+                        "خدمة عملاء مدعومة بالذكاء الاصطناعي: مساعد افتراضي ذكي يعتمد على OpenAI بذاكرة سياقية لدعم عملاء طبيعي وسريع الاستجابة على مدار الساعة طوال أيام الأسبوع",
+                        "أتمتة سير العمل الذكية: بنية خلفية مستقلة تعمل على أتمتة منطق الذكاء الاصطناعي والعمليات التجارية دون إثقال أداء الخادم الرئيسي"
+                    ]
                 },
                 {
                     title: "عمار لتأجير السيارات",
@@ -345,8 +363,14 @@ export const translations = {
             items: [
                 {
                     title: "Yalla 商店",
-                    desc: "企业级电子商务系统，提供高性能和尖端安全性。使用 Server Actions 进行安全的服务器端执行，结合 Drizzle ORM（类型安全）和 Zustand 的轻量级状态管理。这是一个端到端的业务解决方案，确保快速可靠的交易。",
-                    features: ["使用 Better Auth 的高度安全身份验证", "Cloudinary 图像优化和 Zod 验证", "生产就绪的现代全栈架构"]
+                    desc: "企业级电子商务系统，提供高性能和尖端安全性。现在无缝集成了 AI 客户服务创新。由具备上下文记忆功能的 OpenAI LLM 和高级工作流自动化架构提供支持，该系统可提供 24/7 智能、自动化且自然如人类的客户服务。使用 Server Actions 进行安全的服务器端执行，结合 Drizzle ORM（类型安全）和 Zustand 的轻量级状态管理，Yalla Store 是一个端到端的业务解决方案，确保极其快速、可靠和互动的交易。",
+                    features: [
+                        "使用 Better Auth 的高度安全身份验证", 
+                        "Cloudinary 图像优化和 Zod 验证", 
+                        "生产就绪的现代全栈架构",
+                        "AI 驱动的客户服务：基于 OpenAI 的智能虚拟助手，具有上下文记忆，可提供自然和响应迅速的 24/7 客户支持",
+                        "智能工作流自动化：独立的后端架构，可自动执行 AI 逻辑和业务流程，而不增加主服务器的性能负担"
+                    ]
                 },
                 {
                     title: "Amar 汽车租赁",
@@ -443,8 +467,14 @@ export const translations = {
             items: [
                 {
                     title: "Yalla ストア",
-                    desc: "高いパフォーマンスと最先端のセキュリティを提供するエンタープライズグレードの電子商取引システム。安全なサーバー側実行のために Server Actions を使用し、Drizzle ORM (タイプセーフ) および Zustand の軽量な状態管理と組み合わせています。これは、高速で信頼性の高いトランザクションを保証するエンドツーエンドのビジネスソリューションです。",
-                    features: ["Better Auth による安全性の高い認証", "Cloudinary 画像最適化と Zod 検証", "本番環境に対応した最新のフルスタックアーキテクチャ"]
+                    desc: "高いパフォーマンスと最先端のセキュリティを提供するエンタープライズグレードの電子商取引システム。今回、シームレスに統合されたAIカスタマーサービスのイノベーションを導入しました。文脈記憶機能を備えたOpenAI LLMと高度なワークフロー自動化アーキテクチャを活用し、このシステムは24時間365日、インテリジェントで自動化された自然な人間のようなカスタマーサービスを提供します。安全なサーバー側実行のためにServer Actionsを使用し、Drizzle ORM（タイプセーフ）およびZustandの軽量な状態管理と組み合わせて、Yalla Storeは超高速で信頼性の高いインタラクティブなトランザクションを保証するエンドツーエンドのビジネスソリューションです。",
+                    features: [
+                        "Better Auth による安全性の高い認証", 
+                        "Cloudinary 画像最適化と Zod 検証", 
+                        "本番環境に対応した最新のフルスタックアーキテクチャ",
+                        "AIを活用したカスタマーサービス：自然でレスポンシブな24時間365日のカスタマーサポートのための、コンテキストメモリを備えたOpenAIベースのインテリジェント仮想アシスタント",
+                        "インテリジェントなワークフロー自動化：メインサーバーのパフォーマンスに負担をかけることなく、AIロジックとビジネスプロセスを自動化するスタンドアロンのバックエンドアーキテクチャ"
+                    ]
                 },
                 {
                     title: "Amar レンタカー",
@@ -541,8 +571,14 @@ export const translations = {
             items: [
                 {
                     title: "Tienda Yalla",
-                    desc: "Un sistema de comercio electrónico de grado empresarial que ofrece alto rendimiento y seguridad de vanguardia. Utiliza Server Actions para una ejecución segura del lado del servidor, combinado con Drizzle ORM (Type-Safe) y gestión de estado ligero de Zustand. Esta es una solución empresarial de extremo a extremo que garantiza transacciones rápidas y confiables.",
-                    features: ["Autenticación altamente segura con Better Auth", "Optimización de imágenes Cloudinary y validación Zod", "Arquitectura Fullstack moderna lista para producción"]
+                    desc: "Un sistema de comercio electrónico de grado empresarial que ofrece alto rendimiento y seguridad de vanguardia. Ahora cuenta con una innovación de Servicio al Cliente con IA integrada a la perfección. Impulsado por OpenAI LLM con capacidades de memoria contextual y una arquitectura de Automatización de Flujo de Trabajo Avanzada, este sistema proporciona un servicio al cliente inteligente, automatizado y natural similar al humano las 24 horas del día, los 7 días de la semana. Utilizando Server Actions para una ejecución segura del lado del servidor, combinado con Drizzle ORM (Type-Safe) y gestión de estado ligero de Zustand, Yalla Store es una solución empresarial de extremo a extremo que garantiza transacciones ultrarrápidas, confiables e interactivas.",
+                    features: [
+                        "Autenticación altamente segura con Better Auth", 
+                        "Optimización de imágenes Cloudinary y validación Zod", 
+                        "Arquitectura Fullstack moderna lista para producción",
+                        "Servicio al Cliente impulsado por IA: Asistente virtual inteligente basado en OpenAI con memoria contextual para un soporte al cliente 24/7 natural y receptivo",
+                        "Automatización Inteligente del Flujo de Trabajo: Arquitectura de backend independiente que automatiza la lógica de IA y los procesos comerciales sin sobrecargar el rendimiento del servidor principal"
+                    ]
                 },
                 {
                     title: "Amar Alquiler de Coches",

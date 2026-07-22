@@ -20,7 +20,8 @@ const Projects = () => {
                 { name: "Next.js 15", icon: "fab fa-react", color: "#ffffff" },
                 { name: "Tailwind v4", icon: "fas fa-wind", color: "#06B6D4" },
                 { name: "PostgreSQL", icon: "fas fa-database", color: "#336791" },
-                { name: "Zustand", icon: "fas fa-cogs", color: "#F7DF1E" }
+                { name: "Zustand", icon: "fas fa-cogs", color: "#F7DF1E" },
+                { name: "OpenAI", icon: "fas fa-robot", color: "#10A37F" }
             ],
             desc: translatedProjects[0]?.desc || "Sistem e-commerce berskala besar (Enterprise-Grade) yang mengusung performa tinggi dan keamanan tingkat mutakhir. Menggunakan Server Actions untuk eksekusi sisi server yang aman, dikombinasikan dengan Drizzle ORM (Type-Safe) dan manajemen state ringan dari Zustand. Ini adalah solusi bisnis end-to-end yang menjamin transaksi cepat dan andal.",
             features: translatedProjects[0]?.features || ["Sistem Autentikasi Super Aman dengan Better Auth", "Optimasi Gambar Cloudinary & Validasi Zod", "Arsitektur Fullstack modern siap produksi"],
