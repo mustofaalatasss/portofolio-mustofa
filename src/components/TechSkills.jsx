@@ -28,7 +28,7 @@ const backendSkills = [
     { name: 'Git & GitHub', icon: 'fab fa-git-alt', color: '#F05032' },
 ];
 
-const roles = ["UI/UX", "FRONT END DEVELOPER", "BACK END DEVELOPER", "FULL STACK DEVELOPER"];
+const roles = ["UI/UX", "FRONT END DEVELOPER", "BACK END DEVELOPER", "FULL STACK DEVELOPER", "AI AUTOMATION"];
 
 const TechSkills = () => {
     const { t } = useLanguage();
