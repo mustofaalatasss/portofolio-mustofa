@@ -102,6 +102,9 @@ export const translations = {
             location: "Lokasi",
             jakarta: "Matraman, Jakarta Timur DKI Jakarta"
         },
+        chat: {
+            tooltip: "Halo, saya adalah Karyawan AI Mustofa"
+        },
         footer: {
             allRightsReserved: "Hak Cipta Dilindungi",
             craftedWith: "Dibuat dengan",
@@ -210,6 +213,9 @@ export const translations = {
             wa: "WhatsApp",
             location: "Location",
             jakarta: "Matraman, East Jakarta DKI Jakarta"
+        },
+        chat: {
+            tooltip: "Hello, I am Mustofa's AI Employee"
         },
         footer: {
             allRightsReserved: "All Rights Reserved",
@@ -320,6 +326,9 @@ export const translations = {
             location: "موقع",
             jakarta: "ماترامان، شرق جاكرتا"
         },
+        chat: {
+            tooltip: "مرحباً، أنا موظف الذكاء الاصطناعي لمصطفى"
+        },
         footer: {
             allRightsReserved: "جميع الحقوق محفوظة",
             craftedWith: "صنع بـ",
@@ -423,6 +432,9 @@ export const translations = {
             wa: "WhatsApp",
             location: "位置",
             jakarta: "东雅加达，马特拉曼"
+        },
+        chat: {
+            tooltip: "你好，我是 Mustofa 的 AI 员工"
         },
         footer: {
             allRightsReserved: "版权所有",
@@ -528,6 +540,9 @@ export const translations = {
             location: "場所",
             jakarta: "東ジャカルタ、マトラマン"
         },
+        chat: {
+            tooltip: "こんにちは、私はムストファのAI従業員です"
+        },
         footer: {
             allRightsReserved: "全著作権所有",
             craftedWith: "で作られた",
@@ -631,6 +646,9 @@ export const translations = {
             wa: "WhatsApp",
             location: "Ubicación",
             jakarta: "Matraman, Yakarta Oriental"
+        },
+        chat: {
+            tooltip: "Hola, soy el Empleado de IA de Mustofa"
         },
         footer: {
             allRightsReserved: "Todos los derechos reservados",

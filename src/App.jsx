@@ -13,6 +13,7 @@ import Footer from './components/Footer';
 import Cursor from './components/Cursor';
 import LightBackground from './components/LightBackground';
 import LoadingScreen from './components/LoadingScreen';
+import AiChat from './components/AiChat';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -75,6 +76,7 @@ function App() {
       <About />
       <Contact />
       <Footer />
+      <AiChat />
     </div>
   );
 }
