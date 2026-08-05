@@ -46,7 +46,7 @@ const AiChat = () => {
             .join(' | ');
 
         try {
-            const response = await fetch('https://mustofaalatas.app.n8n.cloud/webhook/Chat-Api', {
+            const response = await fetch('https://n8n.portofolio-mustofa.my.id/webhook/Chat-Api', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
