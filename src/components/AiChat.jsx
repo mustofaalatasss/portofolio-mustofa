@@ -12,10 +12,10 @@ const AiChat = () => {
     useEffect(() => {
         if (isOpen && messages.length === 0) {
             setMessages([
-                { sender: 'ai', text: 'Halo! Saya adalah AI Assistant Mustofa. Ada yang bisa saya bantu terkait pembuatan website? Anda juga bisa bertanya-tanya seputar profil, skill, dan pengalaman Mustofa lho!' }
+                { sender: 'ai', text: t('chat.greeting') }
             ]);
         }
-    }, [isOpen, messages.length]);
+    }, [isOpen, messages.length, t]);
 
     // Auto-scroll to bottom of chat
     useEffect(() => {
@@ -34,9 +34,10 @@ const AiChat = () => {
 
         // Supaya n8n tidak error saat mem-parsing JSON, kita gunakan pemisah garis lurus ' | '
         // dan kita BERSIHKAN semua 'Enter' (\n) serta tanda kutip (") dari memori chat.
+        const greetingText = t('chat.greeting');
         const conversationMemory = newMessages
-            // JANGAN sertakan pesan sapaan awal berbahasa Indonesia agar AI tidak terpengaruh (terbias) menjadi bahasa Indonesia!
-            .filter(msg => !msg.text.includes('Halo! Saya adalah AI Assistant Mustofa'))
+            // Filter out the greeting message (in any language) to avoid biasing the AI
+            .filter(msg => msg.text !== greetingText)
             .slice(-5) // Ingat 5 obrolan terakhir agar hemat token
             .map(msg => {
                 // Ganti semua enter dengan spasi, dan kutip dua dengan kutip satu

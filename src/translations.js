@@ -103,7 +103,8 @@ export const translations = {
             jakarta: "Matraman, Jakarta Timur DKI Jakarta"
         },
         chat: {
-            tooltip: "Halo, saya adalah Karyawan AI Mustofa"
+            tooltip: "Halo, saya adalah Karyawan AI Mustofa",
+            greeting: "Halo! Saya adalah AI Assistant Mustofa. Ada yang bisa saya bantu terkait pembuatan website? Anda juga bisa bertanya-tanya seputar profil, skill, dan pengalaman Mustofa lho!"
         },
         footer: {
             allRightsReserved: "Hak Cipta Dilindungi",
@@ -215,7 +216,8 @@ export const translations = {
             jakarta: "Matraman, East Jakarta DKI Jakarta"
         },
         chat: {
-            tooltip: "Hello, I am Mustofa's AI Employee"
+            tooltip: "Hello, I am Mustofa's AI Employee",
+            greeting: "Hello! I am Mustofa's AI Assistant. How can I help you today? Feel free to ask about website development, Mustofa's profile, skills, and experience!"
         },
         footer: {
             allRightsReserved: "All Rights Reserved",
@@ -327,7 +329,8 @@ export const translations = {
             jakarta: "ماترامان، شرق جاكرتا"
         },
         chat: {
-            tooltip: "مرحباً، أنا موظف الذكاء الاصطناعي لمصطفى"
+            tooltip: "مرحباً، أنا موظف الذكاء الاصطناعي لمصطفى",
+            greeting: "مرحباً! أنا مساعد الذكاء الاصطناعي لمصطفى. كيف يمكنني مساعدتك؟ يمكنك أيضاً السؤال عن ملفه الشخصي ومهاراته وخبراته!"
         },
         footer: {
             allRightsReserved: "جميع الحقوق محفوظة",
@@ -434,7 +437,8 @@ export const translations = {
             jakarta: "东雅加达，马特拉曼"
         },
         chat: {
-            tooltip: "你好，我是 Mustofa 的 AI 员工"
+            tooltip: "你好，我是 Mustofa 的 AI 员工",
+            greeting: "你好！我是 Mustofa 的 AI 助手。有什么我可以帮助您的吗？您也可以询问有关网站开发、Mustofa 的个人资料、技能和经验！"
         },
         footer: {
             allRightsReserved: "版权所有",
@@ -541,7 +545,8 @@ export const translations = {
             jakarta: "東ジャカルタ、マトラマン"
         },
         chat: {
-            tooltip: "こんにちは、私はムストファのAI従業員です"
+            tooltip: "こんにちは、私はムストファのAI従業員です",
+            greeting: "こんにちは！私はムストファのAIアシスタントです。ウェブ制作に関するご質問はありますか？プロフィール、スキル、経験についてもお気軽にどうぞ！"
         },
         footer: {
             allRightsReserved: "全著作権所有",
@@ -648,7 +653,8 @@ export const translations = {
             jakarta: "Matraman, Yakarta Oriental"
         },
         chat: {
-            tooltip: "Hola, soy el Empleado de IA de Mustofa"
+            tooltip: "Hola, soy el Empleado de IA de Mustofa",
+            greeting: "¡Hola! Soy el Asistente de IA de Mustofa. ¿En qué puedo ayudarte? También puedes preguntarme sobre su perfil, habilidades y experiencia en desarrollo web."
         },
         footer: {
             allRightsReserved: "Todos los derechos reservados",
