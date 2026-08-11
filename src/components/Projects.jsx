@@ -339,6 +339,22 @@ const Projects = () => {
                                 </div>
 
                                 <div className="modal-body">
+                                    <div className="modal-details">
+                                        <div className="detail-section">
+                                            <h4>{t('projects.modal_desc_title')}</h4>
+                                            <p>{activeProject.desc}</p>
+                                        </div>
+
+                                        <div className="detail-section">
+                                            <h4>{t('projects.modal_features_title')}</h4>
+                                            <ul className="feature-list">
+                                                {activeProject.features.map((feature, i) => (
+                                                    <li key={i}><i className="fas fa-check-circle"></i> {feature}</li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    </div>
+
                                     <div className={`modal-gallery ${activeProject.layout === 'vertical' ? 'vertical' : ''}`}>
                                         {activeProject.images.map((imgSrc, idx) => (
                                             <Fragment key={idx}>
@@ -361,22 +377,6 @@ const Projects = () => {
                                                 </div>
                                             </Fragment>
                                         ))}
-                                    </div>
-
-                                    <div className="modal-details">
-                                        <div className="detail-section">
-                                            <h4>{t('projects.modal_desc_title')}</h4>
-                                            <p>{activeProject.desc}</p>
-                                        </div>
-
-                                        <div className="detail-section">
-                                            <h4>{t('projects.modal_features_title')}</h4>
-                                            <ul className="feature-list">
-                                                {activeProject.features.map((feature, i) => (
-                                                    <li key={i}><i className="fas fa-check-circle"></i> {feature}</li>
-                                                ))}
-                                            </ul>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
