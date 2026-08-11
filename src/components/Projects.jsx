@@ -35,7 +35,8 @@ const Projects = () => {
             tech: [
                 { name: "Next.js App Router", icon: "fab fa-react", color: "#ffffff" },
                 { name: "Laravel", icon: "fab fa-laravel", color: "#FF2D20" },
-                { name: "MySQL", icon: "fas fa-database", color: "#4479A1" }
+                { name: "MySQL", icon: "fas fa-database", color: "#4479A1" },
+                { name: "n8n Automation", icon: "fas fa-bolt", color: "#EA4B71" }
             ],
             desc: translatedProjects[1]?.desc || "Platform enterprise dengan arsitektur terpisah (Decoupled Client-Server). Frontend dibangun secara khusus demi mencapai optimasi SEO (Search Engine Optimization) sempurna dan interaksi kilat. Didukung oleh Backend Laravel yang kokoh dengan proteksi keamanan API kelas atas (Sanctum Token), sistem ini siap menangani lonjakan transaksi dengan latensi minimal.",
             features: translatedProjects[1]?.features || ["RESTful API Integration dengan perlindungan CORS", "Graceful Degradation untuk stabilitas saat sinyal lemah", "SQL Injection Protection & Security Headers"],
