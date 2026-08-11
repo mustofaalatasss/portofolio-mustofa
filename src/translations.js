@@ -47,8 +47,14 @@ export const translations = {
                 },
                 {
                     title: "Amar Rental Mobil",
-                    desc: "Platform enterprise dengan arsitektur terpisah (Decoupled Client-Server). Frontend dibangun secara khusus demi mencapai optimasi SEO (Search Engine Optimization) sempurna dan interaksi kilat. Didukung oleh Backend Laravel yang kokoh dengan proteksi keamanan API kelas atas (Sanctum Token), sistem ini siap menangani lonjakan transaksi dengan latensi minimal.",
-                    features: ["RESTful API Integration dengan perlindungan CORS", "Graceful Degradation untuk stabilitas saat sinyal lemah", "SQL Injection Protection & Security Headers"]
+                    desc: "Platform penyewaan kendaraan skala enterprise yang dirancang dengan arsitektur Headless (Decoupled Client-Server) modern. Frontend dibangun menggunakan Next.js App Router demi mencapai performa SEO (Search Engine Optimization) yang sempurna dan antarmuka pengguna secepat kilat. Di balik layar, Backend Laravel bertindak sebagai pusat kendali (Centralized Dashboard) yang kokoh, dilengkapi dengan sistem otomasi tingkat lanjut via arsitektur Event-Driven (Webhooks). Terintegrasi penuh dengan n8n untuk notifikasi WhatsApp secara real-time, sistem ini didesain tidak hanya untuk menangani lonjakan transaksi dengan latensi minimal, tetapi juga untuk menciptakan pengalaman operasional bisnis yang mulus tanpa intervensi manual yang berulang.",
+                    features: [
+                        "Real-time WhatsApp Automation (via n8n Webhooks): Sistem notifikasi fire-and-forget asinkronus. Pelanggan secara otomatis dan instan menerima update pesanan via WhatsApp setiap kali admin mengubah status booking, meniadakan kebutuhan follow-up manual.",
+                        "Headless Architecture & RESTful API: Infrastruktur backend dan frontend yang terpisah sepenuhnya, dihubungkan melalui jalur API berkinerja tinggi dengan perlindungan CORS dan lapisan keamanan Sanctum Token.",
+                        "Advanced Security Protocols: Proteksi mutlak tingkat server dan aplikasi terhadap serangan SQL Injection, Cross-Site Scripting (XSS), serta penerapan Security Headers yang ketat.",
+                        "Optimized SEO & Graceful Degradation: Tampilan frontend cerdas yang di-render secara optimal untuk mesin pencari (Google), serta dirancang agar tetap responsif dan stabil meskipun diakses pada kondisi sinyal jaringan yang lemah.",
+                        "Centralized Fleet & Order Management: Dibekali dengan dashboard admin komprehensif (berbasis Filament) untuk memantau analitik bisnis, ketersediaan armada mobil secara langsung (live stock), dan manajemen transaksi dari satu pintu."
+                    ]
                 },
                 {
                     title: "Tournament Piala Dunia 2026",
@@ -160,8 +166,14 @@ export const translations = {
                 },
                 {
                     title: "Amar Car Rental",
-                    desc: "Enterprise platform with Decoupled Client-Server architecture. The frontend is specially built to achieve perfect SEO and lightning-fast interactions. Supported by a robust Laravel Backend with top-tier API security protection (Sanctum Token), this system is ready to handle transaction spikes with minimal latency.",
-                    features: ["RESTful API Integration with CORS protection", "Graceful Degradation for weak signal stability", "SQL Injection Protection & Security Headers"]
+                    desc: "An enterprise-scale vehicle rental platform designed with a modern Headless (Decoupled Client-Server) architecture. The frontend is built using Next.js App Router to achieve perfect SEO performance and lightning-fast user interfaces. Behind the scenes, a robust Laravel Backend acts as a Centralized Dashboard, equipped with advanced automation systems via Event-Driven architecture (Webhooks). Fully integrated with n8n for real-time WhatsApp notifications, this system is designed not only to handle transaction spikes with minimal latency but also to create a seamless business operational experience without repetitive manual intervention.",
+                    features: [
+                        "Real-time WhatsApp Automation (via n8n Webhooks): Asynchronous fire-and-forget notification system. Customers automatically and instantly receive order updates via WhatsApp whenever the admin changes booking status, eliminating the need for manual follow-ups.",
+                        "Headless Architecture & RESTful API: Fully separated backend and frontend infrastructure, connected through high-performance API routes with CORS protection and Sanctum Token security layers.",
+                        "Advanced Security Protocols: Absolute server and application-level protection against SQL Injection, Cross-Site Scripting (XSS), and strict implementation of Security Headers.",
+                        "Optimized SEO & Graceful Degradation: Smart frontend display optimally rendered for search engines (Google), and designed to remain responsive and stable even when accessed under weak network signal conditions.",
+                        "Centralized Fleet & Order Management: Equipped with a comprehensive admin dashboard (Filament-based) to monitor business analytics, live car fleet availability (live stock), and transaction management from a single portal."
+                    ]
                 },
                 {
                     title: "2026 World Cup Tournament",
@@ -273,8 +285,14 @@ export const translations = {
                 },
                 {
                     title: "عمار لتأجير السيارات",
-                    desc: "منصة مؤسسية بهندسة عميل وخادم منفصلة. تم بناء الواجهة الأمامية خصيصاً لتحقيق تحسين محركات البحث المثالي والتفاعلات السريعة جداً. مدعوم بخادم Laravel قوي مع حماية أمان API من الدرجة الأولى (Sanctum Token)، هذا النظام جاهز للتعامل مع طفرات المعاملات بأقل زمن وصول.",
-                    features: ["تكامل واجهة برمجة التطبيقات RESTful مع حماية CORS", "تدهور سلس لاستقرار الإشارة الضعيفة", "حماية من حقن SQL ورؤوس الأمان"]
+                    desc: "منصة تأجير سيارات على مستوى المؤسسات مصممة بهيكل حديث بدون رأس (خادم وعميل منفصلان). تم بناء الواجهة الأمامية باستخدام Next.js App Router لتحقيق أداء مثالي في تحسين محركات البحث وواجهة مستخدم سريعة كالبرق. خلف الكواليس، تعمل واجهة Laravel الخلفية القوية كلوحة تحكم مركزية، مزودة بأنظمة أتمتة متقدمة عبر بنية تعتمد على الأحداث (Webhooks). مدمجة بالكامل مع n8n لإشعارات واتساب في الوقت الفعلي، هذا النظام مصمم ليس فقط للتعامل مع طفرات المعاملات بأقل زمن وصول ولكن أيضًا لإنشاء تجربة تشغيل أعمال سلسة دون تدخل يدوي متكرر.",
+                    features: [
+                        "أتمتة واتساب في الوقت الفعلي (عبر n8n Webhooks): نظام إشعارات غير متزامن. يتلقى العملاء تحديثات الطلب عبر واتساب تلقائيًا وعلى الفور كلما قام المسؤول بتغيير حالة الحجز، مما يلغي الحاجة إلى المتابعات اليدوية.",
+                        "بنية بدون رأس وواجهة برمجة تطبيقات RESTful: بنية تحتية منفصلة تمامًا للواجهة الخلفية والأمامية، متصلة عبر مسارات واجهة برمجة تطبيقات عالية الأداء مع حماية CORS وطبقات أمان Sanctum Token.",
+                        "بروتوكولات الأمان المتقدمة: حماية مطلقة على مستوى الخادم والتطبيق ضد حقن SQL والبرمجة عبر المواقع (XSS) والتنفيذ الصارم لرؤوس الأمان.",
+                        "تحسين محركات البحث والتدهور السلس: عرض ذكي للواجهة الأمامية تم تقديمه بشكل مثالي لمحركات البحث (Google)، ومصمم ليظل متجاوبًا ومستقرًا حتى عند الوصول إليه في ظروف إشارة الشبكة الضعيفة.",
+                        "الإدارة المركزية للأسطول والطلبات: مزود بلوحة تحكم إدارة شاملة (قائمة على Filament) لمراقبة تحليلات الأعمال وتوافر أسطول السيارات المباشر وإدارة المعاملات من بوابة واحدة."
+                    ]
                 },
                 {
                     title: "بطولة كأس العالم 2026",
@@ -386,8 +404,14 @@ export const translations = {
                 },
                 {
                     title: "Amar 汽车租赁",
-                    desc: "采用解耦客户端-服务器架构的企业平台。前端专为实现完美的 SEO 和闪电般的交互而构建。由强大的 Laravel 后端和顶级的 API 安全保护（Sanctum Token）支持，该系统随时准备以最小延迟处理交易高峰。",
-                    features: ["带有 CORS 保护的 RESTful API 集成", "针对弱信号稳定性的优雅降级", "SQL 注入保护和安全标头"]
+                    desc: "一个采用现代无头（客户端-服务器分离）架构设计的企业级车辆租赁平台。前端使用 Next.js App Router 构建，以实现完美的 SEO 性能和闪电般的用户界面。在幕后，强大的 Laravel 后端作为中央控制面板，配备了基于事件驱动架构（Webhooks）的高级自动化系统。与 n8n 完全集成，实现实时 WhatsApp 通知，该系统的设计不仅是为了以最小延迟处理交易高峰，而且是为了创造无缝的业务运营体验，无需重复的手动干预。",
+                    features: [
+                        "实时 WhatsApp 自动化（通过 n8n Webhooks）：异步即发即弃通知系统。每当管理员更改预订状态时，客户会自动即时收到 WhatsApp 订单更新，无需手动跟进。",
+                        "无头架构与 RESTful API：完全分离的后端和前端基础设施，通过具有 CORS 保护和 Sanctum Token 安全层的高性能 API 路由连接。",
+                        "高级安全协议：服务器和应用程序级别的绝对保护，防止 SQL 注入、跨站脚本（XSS），并严格实施安全标头。",
+                        "优化的 SEO 和优雅降级：智能前端显示，为搜索引擎（Google）进行优化渲染，并旨在即使在网络信号微弱的条件下访问也能保持响应和稳定。",
+                        "集中式车队和订单管理：配备综合管理仪表板（基于 Filament），用于监控业务分析、实时车队可用性（实时库存）和单一门户的交易管理。"
+                    ]
                 },
                 {
                     title: "2026 年世界杯锦标赛",
@@ -494,8 +518,14 @@ export const translations = {
                 },
                 {
                     title: "Amar レンタカー",
-                    desc: "分離されたクライアント・サーバーアーキテクチャを備えたエンタープライズプラットフォーム。フロントエンドは、完璧な SEO と非常に高速な対話を実現するために特別に構築されています。トップ層の API セキュリティ保護 (Sanctum Token) を備えた堅牢な Laravel バックエンドによってサポートされているこのシステムは、最小限のレイテンシでトランザクションの急増に対処する準備ができています。",
-                    features: ["CORS 保護を備えた RESTful API 統合", "弱い信号の安定性のためのグレースフルデグラデーション", "SQL インジェクション保護とセキュリティヘッダー"]
+                    desc: "最新のヘッドレス（クライアントサーバー分離）アーキテクチャで設計されたエンタープライズ規模のレンタカープラットフォーム。フロントエンドはNext.js App Routerを使用して構築されており、完璧なSEOパフォーマンスと超高速のユーザーインターフェースを実現しています。舞台裏では、堅牢なLaravelバックエンドが中央ダッシュボードとして機能し、イベント駆動型アーキテクチャ（Webhooks）による高度な自動化システムを備えています。n8nと完全に統合してリアルタイムのWhatsApp通知を実現するこのシステムは、最小限の遅延でトランザクションの急増を処理するだけでなく、反復的な手動介入なしにシームレスなビジネス運用エクスペリエンスを作成するように設計されています。",
+                    features: [
+                        "リアルタイムのWhatsApp自動化（n8n Webhooks経由）：非同期の通知システム。管理者が予約ステータスを変更するたびに、顧客はWhatsApp経由で注文の更新を自動的かつ即座に受け取り、手動でのフォローアップの必要性を排除します。",
+                        "ヘッドレスアーキテクチャとRESTful API：完全に分離されたバックエンドとフロントエンドのインフラストラクチャ。CORS保護とSanctum Tokenセキュリティレイヤーを備えた高性能APIルートを通じて接続されます。",
+                        "高度なセキュリティプロトコル：SQLインジェクション、クロスサイトスクリプティング（XSS）に対する絶対的なサーバーおよびアプリケーションレベルの保護、およびセキュリティヘッダーの厳密な実装。",
+                        "最適化されたSEOとグレースフルデグラデーション：検索エンジン（Google）向けに最適にレンダリングされたスマートなフロントエンド表示。ネットワーク信号が弱い条件下でアクセスした場合でも、応答性と安定性を維持するように設計されています。",
+                        "一元化されたフリートと注文の管理：ビジネス分析、ライブの車両フリートの可用性（ライブ在庫）、および単一のポータルからのトランザクション管理を監視するための包括的な管理ダッシュボード（Filamentベース）を備えています。"
+                    ]
                 },
                 {
                     title: "2026年ワールドカップトーナメント",
@@ -602,8 +632,14 @@ export const translations = {
                 },
                 {
                     title: "Amar Alquiler de Coches",
-                    desc: "Plataforma empresarial con arquitectura Cliente-Servidor desacoplada. El frontend está construido especialmente para lograr un SEO perfecto e interacciones ultrarrápidas. Respaldado por un robusto Backend Laravel con protección de seguridad API de primer nivel (Sanctum Token), este sistema está listo para manejar picos de transacciones con latencia mínima.",
-                    features: ["Integración API RESTful con protección CORS", "Degradación elegante para la estabilidad de señales débiles", "Protección contra inyección SQL y encabezados de seguridad"]
+                    desc: "Una plataforma de alquiler de vehículos a escala empresarial diseñada con una arquitectura moderna Headless (Cliente-Servidor Desacoplado). El frontend está construido usando Next.js App Router para lograr un rendimiento SEO perfecto e interfaces de usuario ultrarrápidas. Detrás de escena, un robusto backend de Laravel actúa como un panel de control centralizado, equipado con sistemas de automatización avanzados a través de una arquitectura basada en eventos (Webhooks). Totalmente integrado con n8n para notificaciones de WhatsApp en tiempo real, este sistema está diseñado no solo para manejar picos de transacciones con una latencia mínima, sino también para crear una experiencia operativa comercial perfecta sin intervención manual repetitiva.",
+                    features: [
+                        "Automatización de WhatsApp en tiempo real (a través de n8n Webhooks): Sistema de notificación asíncrono. Los clientes reciben actualizaciones de pedidos de forma automática e instantánea a través de WhatsApp cada vez que el administrador cambia el estado de la reserva, eliminando la necesidad de seguimientos manuales.",
+                        "Arquitectura Headless y API RESTful: Infraestructura de backend y frontend totalmente separada, conectada a través de rutas API de alto rendimiento con protección CORS y capas de seguridad Sanctum Token.",
+                        "Protocolos de seguridad avanzados: Protección absoluta a nivel de servidor y aplicación contra inyección SQL, Cross-Site Scripting (XSS) y estricta implementación de encabezados de seguridad.",
+                        "SEO optimizado y degradación elegante: Visualización de frontend inteligente renderizada de manera óptima para motores de búsqueda (Google), y diseñada para permanecer receptiva y estable incluso cuando se accede en condiciones de señal de red débil.",
+                        "Gestión centralizada de flotas y pedidos: Equipado con un panel de administración integral (basado en Filament) para monitorear análisis comerciales, disponibilidad de flotas de automóviles en vivo (stock en vivo) y gestión de transacciones desde un solo portal."
+                    ]
                 },
                 {
                     title: "Torneo Copa del Mundo 2026",
