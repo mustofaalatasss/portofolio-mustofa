@@ -37,7 +37,7 @@ const TechSkills = () => {
     const statsData = [
         { value: 80, suffix: "+", label: t('tech.stats_clients') },
         { value: 100, suffix: "+", label: t('tech.stats_projects') },
-        { value: 1, suffix: "+", label: t('tech.stats_years') },
+        { value: 3, suffix: "+", label: t('tech.stats_years') },
         { value: 15, suffix: "+", label: t('tech.stats_stacks') },
         { value: 999, suffix: "+", label: t('tech.stats_bugs') }
     ];
