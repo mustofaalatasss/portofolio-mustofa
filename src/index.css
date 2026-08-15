@@ -1544,6 +1544,7 @@ html {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    margin-bottom: 3rem;
 }
 
 .detail-section {
@@ -1576,6 +1577,7 @@ html {
     font-size: 1.1rem;
     font-weight: 500;
     letter-spacing: 0.2px;
+    white-space: pre-line;
 }
 
 .feature-list {

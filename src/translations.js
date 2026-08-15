@@ -36,7 +36,7 @@ export const translations = {
             items: [
                 {
                     title: "Yalla Store",
-                    desc: "Sistem e-commerce berskala besar (Enterprise-Grade) yang mengusung performa tinggi dan keamanan tingkat mutakhir. Kini hadir dengan inovasi AI Customer Service yang terintegrasi mulus. Ditenagai oleh OpenAI LLM berkapabilitas memori kontekstual dan arsitektur Advanced Workflow Automation, sistem ini siap memberikan pelayanan pelanggan 24/7 secara cerdas, otomatis, dan natural layaknya manusia. Menggunakan Server Actions untuk eksekusi sisi server yang aman, dikombinasikan dengan Drizzle ORM (Type-Safe) dan manajemen state ringan dari Zustand, menjadikan Yalla Store sebagai solusi bisnis end-to-end yang menjamin transaksi super cepat, andal, dan interaktif.",
+                    desc: "Sistem e-commerce berskala besar (Enterprise-Grade) yang mengusung performa tinggi dan keamanan tingkat mutakhir. Kini hadir dengan inovasi AI Customer Service yang terintegrasi mulus.\n\nDitenagai oleh OpenAI LLM berkapabilitas memori kontekstual dan arsitektur Advanced Workflow Automation, sistem ini siap memberikan pelayanan pelanggan 24/7 secara cerdas, otomatis, dan natural layaknya manusia.\n\nMenggunakan Server Actions untuk eksekusi sisi server yang aman, dikombinasikan dengan Drizzle ORM (Type-Safe) dan manajemen state ringan dari Zustand, menjadikan Yalla Store sebagai solusi bisnis end-to-end yang menjamin transaksi super cepat, andal, dan interaktif.",
                     features: [
                         "Sistem Autentikasi Super Aman dengan Better Auth", 
                         "Optimasi Gambar Cloudinary & Validasi Zod", 
@@ -47,7 +47,7 @@ export const translations = {
                 },
                 {
                     title: "Amar Rental Mobil",
-                    desc: "Platform penyewaan kendaraan skala enterprise yang dirancang dengan arsitektur Headless (Decoupled Client-Server) modern. Frontend dibangun menggunakan Next.js App Router demi mencapai performa SEO (Search Engine Optimization) yang sempurna dan antarmuka pengguna secepat kilat. Di balik layar, Backend Laravel bertindak sebagai pusat kendali (Centralized Dashboard) yang kokoh, dilengkapi dengan sistem otomasi tingkat lanjut via arsitektur Event-Driven (Webhooks). Terintegrasi penuh dengan n8n untuk notifikasi WhatsApp secara real-time, sistem ini didesain tidak hanya untuk menangani lonjakan transaksi dengan latensi minimal, tetapi juga untuk menciptakan pengalaman operasional bisnis yang mulus tanpa intervensi manual yang berulang.",
+                    desc: "Platform penyewaan kendaraan skala enterprise yang dirancang dengan arsitektur Headless (Decoupled Client-Server) modern. Frontend dibangun menggunakan Next.js App Router demi mencapai performa SEO (Search Engine Optimization) yang sempurna dan antarmuka pengguna secepat kilat.\n\nDi balik layar, Backend Laravel bertindak sebagai pusat kendali (Centralized Dashboard) yang kokoh, dilengkapi dengan sistem otomasi tingkat lanjut via arsitektur Event-Driven (Webhooks).\n\nTerintegrasi penuh dengan n8n untuk notifikasi WhatsApp secara real-time, sistem ini didesain tidak hanya untuk menangani lonjakan transaksi dengan latensi minimal, tetapi juga untuk menciptakan pengalaman operasional bisnis yang mulus tanpa intervensi manual yang berulang.",
                     features: [
                         "Real-time WhatsApp Automation (via n8n Webhooks): Sistem notifikasi fire-and-forget asinkronus. Pelanggan secara otomatis dan instan menerima update pesanan via WhatsApp setiap kali admin mengubah status booking, meniadakan kebutuhan follow-up manual.",
                         "Headless Architecture & RESTful API: Infrastruktur backend dan frontend yang terpisah sepenuhnya, dihubungkan melalui jalur API berkinerja tinggi dengan perlindungan CORS dan lapisan keamanan Sanctum Token.",
@@ -155,7 +155,7 @@ export const translations = {
             items: [
                 {
                     title: "Yalla Store",
-                    desc: "An Enterprise-Grade e-commerce system that delivers high performance and cutting-edge security. Now featuring seamlessly integrated AI Customer Service innovation. Powered by OpenAI LLM with contextual memory capabilities and an Advanced Workflow Automation architecture, this system provides 24/7 intelligent, automated, and natural human-like customer service. Using Server Actions for secure server-side execution, combined with Drizzle ORM (Type-Safe) and lightweight state management from Zustand, Yalla Store is an end-to-end business solution ensuring lightning-fast, reliable, and interactive transactions.",
+                    desc: "An Enterprise-Grade e-commerce system that delivers high performance and cutting-edge security. Now featuring seamlessly integrated AI Customer Service innovation.\n\nPowered by OpenAI LLM with contextual memory capabilities and an Advanced Workflow Automation architecture, this system provides 24/7 intelligent, automated, and natural human-like customer service.\n\nUsing Server Actions for secure server-side execution, combined with Drizzle ORM (Type-Safe) and lightweight state management from Zustand, Yalla Store is an end-to-end business solution ensuring lightning-fast, reliable, and interactive transactions.",
                     features: [
                         "Highly Secure Authentication with Better Auth", 
                         "Cloudinary Image Optimization & Zod Validation", 
@@ -166,7 +166,7 @@ export const translations = {
                 },
                 {
                     title: "Amar Car Rental",
-                    desc: "An enterprise-scale vehicle rental platform designed with a modern Headless (Decoupled Client-Server) architecture. The frontend is built using Next.js App Router to achieve perfect SEO performance and lightning-fast user interfaces. Behind the scenes, a robust Laravel Backend acts as a Centralized Dashboard, equipped with advanced automation systems via Event-Driven architecture (Webhooks). Fully integrated with n8n for real-time WhatsApp notifications, this system is designed not only to handle transaction spikes with minimal latency but also to create a seamless business operational experience without repetitive manual intervention.",
+                    desc: "An enterprise-scale vehicle rental platform designed with a modern Headless (Decoupled Client-Server) architecture. The frontend is built using Next.js App Router to achieve perfect SEO performance and lightning-fast user interfaces.\n\nBehind the scenes, a robust Laravel Backend acts as a Centralized Dashboard, equipped with advanced automation systems via Event-Driven architecture (Webhooks).\n\nFully integrated with n8n for real-time WhatsApp notifications, this system is designed not only to handle transaction spikes with minimal latency but also to create a seamless business operational experience without repetitive manual intervention.",
                     features: [
                         "Real-time WhatsApp Automation (via n8n Webhooks): Asynchronous fire-and-forget notification system. Customers automatically and instantly receive order updates via WhatsApp whenever the admin changes booking status, eliminating the need for manual follow-ups.",
                         "Headless Architecture & RESTful API: Fully separated backend and frontend infrastructure, connected through high-performance API routes with CORS protection and Sanctum Token security layers.",
@@ -274,7 +274,7 @@ export const translations = {
             items: [
                 {
                     title: "متجر يلا",
-                    desc: "نظام تجارة إلكترونية على مستوى المؤسسات يوفر أداءً عاليًا وأمانًا متطورًا. يتميز الآن بابتكار خدمة عملاء بالذكاء الاصطناعي مدمج بسلاسة. مدعومًا بنموذج OpenAI LLM مع إمكانات الذاكرة السياقية وبنية أتمتة سير العمل المتقدمة، يوفر هذا النظام خدمة عملاء ذكية وآلية وطبيعية تشبه الإنسان على مدار الساعة طوال أيام الأسبوع. باستخدام إجراءات الخادم للتنفيذ الآمن من جانب الخادم، إلى جانب Drizzle ORM (آمن النوع) وإدارة الحالة الخفيفة من Zustand، يعد متجر يلا حل أعمال متكامل يضمن معاملات فائقة السرعة وموثوقة وتفاعلية.",
+                    desc: "نظام تجارة إلكترونية على مستوى المؤسسات يوفر أداءً عاليًا وأمانًا متطورًا. يتميز الآن بابتكار خدمة عملاء بالذكاء الاصطناعي مدمج بسلاسة.\n\nمدعومًا بنموذج OpenAI LLM مع إمكانات الذاكرة السياقية وبنية أتمتة سير العمل المتقدمة، يوفر هذا النظام خدمة عملاء ذكية وآلية وطبيعية تشبه الإنسان على مدار الساعة طوال أيام الأسبوع.\n\nباستخدام إجراءات الخادم للتنفيذ الآمن من جانب الخادم، إلى جانب Drizzle ORM (آمن النوع) وإدارة الحالة الخفيفة من Zustand، يعد متجر يلا حل أعمال متكامل يضمن معاملات فائقة السرعة وموثوقة وتفاعلية.",
                     features: [
                         "مصادقة آمنة للغاية مع Better Auth", 
                         "تحسين الصور مع Cloudinary والتحقق من Zod", 
@@ -285,7 +285,7 @@ export const translations = {
                 },
                 {
                     title: "عمار لتأجير السيارات",
-                    desc: "منصة تأجير سيارات على مستوى المؤسسات مصممة بهيكل حديث بدون رأس (خادم وعميل منفصلان). تم بناء الواجهة الأمامية باستخدام Next.js App Router لتحقيق أداء مثالي في تحسين محركات البحث وواجهة مستخدم سريعة كالبرق. خلف الكواليس، تعمل واجهة Laravel الخلفية القوية كلوحة تحكم مركزية، مزودة بأنظمة أتمتة متقدمة عبر بنية تعتمد على الأحداث (Webhooks). مدمجة بالكامل مع n8n لإشعارات واتساب في الوقت الفعلي، هذا النظام مصمم ليس فقط للتعامل مع طفرات المعاملات بأقل زمن وصول ولكن أيضًا لإنشاء تجربة تشغيل أعمال سلسة دون تدخل يدوي متكرر.",
+                    desc: "منصة تأجير سيارات على مستوى المؤسسات مصممة بهيكل حديث بدون رأس (خادم وعميل منفصلان). تم بناء الواجهة الأمامية باستخدام Next.js App Router لتحقيق أداء مثالي في تحسين محركات البحث وواجهة مستخدم سريعة كالبرق.\n\nخلف الكواليس، تعمل واجهة Laravel الخلفية القوية كلوحة تحكم مركزية، مزودة بأنظمة أتمتة متقدمة عبر بنية تعتمد على الأحداث (Webhooks).\n\nمدمجة بالكامل مع n8n لإشعارات واتساب في الوقت الفعلي، هذا النظام مصمم ليس فقط للتعامل مع طفرات المعاملات بأقل زمن وصول ولكن أيضًا لإنشاء تجربة تشغيل أعمال سلسة دون تدخل يدوي متكرر.",
                     features: [
                         "أتمتة واتساب في الوقت الفعلي (عبر n8n Webhooks): نظام إشعارات غير متزامن. يتلقى العملاء تحديثات الطلب عبر واتساب تلقائيًا وعلى الفور كلما قام المسؤول بتغيير حالة الحجز، مما يلغي الحاجة إلى المتابعات اليدوية.",
                         "بنية بدون رأس وواجهة برمجة تطبيقات RESTful: بنية تحتية منفصلة تمامًا للواجهة الخلفية والأمامية، متصلة عبر مسارات واجهة برمجة تطبيقات عالية الأداء مع حماية CORS وطبقات أمان Sanctum Token.",
@@ -393,7 +393,7 @@ export const translations = {
             items: [
                 {
                     title: "Yalla 商店",
-                    desc: "企业级电子商务系统，提供高性能和尖端安全性。现在无缝集成了 AI 客户服务创新。由具备上下文记忆功能的 OpenAI LLM 和高级工作流自动化架构提供支持，该系统可提供 24/7 智能、自动化且自然如人类的客户服务。使用 Server Actions 进行安全的服务器端执行，结合 Drizzle ORM（类型安全）和 Zustand 的轻量级状态管理，Yalla Store 是一个端到端的业务解决方案，确保极其快速、可靠和互动的交易。",
+                    desc: "企业级电子商务系统，提供高性能和尖端安全性。现在无缝集成了 AI 客户服务创新。\n\n由具备上下文记忆功能的 OpenAI LLM 和高级工作流自动化架构提供支持，该系统可提供 24/7 智能、自动化且自然如人类的客户服务。\n\n使用 Server Actions 进行安全的服务器端执行，结合 Drizzle ORM（类型安全）和 Zustand 的轻量级状态管理，Yalla Store 是一个端到端的业务解决方案，确保极其快速、可靠和互动的交易。",
                     features: [
                         "使用 Better Auth 的高度安全身份验证", 
                         "Cloudinary 图像优化和 Zod 验证", 
@@ -404,7 +404,7 @@ export const translations = {
                 },
                 {
                     title: "Amar 汽车租赁",
-                    desc: "一个采用现代无头（客户端-服务器分离）架构设计的企业级车辆租赁平台。前端使用 Next.js App Router 构建，以实现完美的 SEO 性能和闪电般的用户界面。在幕后，强大的 Laravel 后端作为中央控制面板，配备了基于事件驱动架构（Webhooks）的高级自动化系统。与 n8n 完全集成，实现实时 WhatsApp 通知，该系统的设计不仅是为了以最小延迟处理交易高峰，而且是为了创造无缝的业务运营体验，无需重复的手动干预。",
+                    desc: "一个采用现代无头（客户端-服务器分离）架构设计的企业级车辆租赁平台。前端使用 Next.js App Router 构建，以实现完美的 SEO 性能和闪电般的用户界面。\n\n在幕后，强大的 Laravel 后端作为中央控制面板，配备了基于事件驱动架构（Webhooks）的高级自动化系统。\n\n与 n8n 完全集成，实现实时 WhatsApp 通知，该系统的设计不仅是为了以最小延迟处理交易高峰，而且是为了创造无缝的业务运营体验，无需重复的手动干预。",
                     features: [
                         "实时 WhatsApp 自动化（通过 n8n Webhooks）：异步即发即弃通知系统。每当管理员更改预订状态时，客户会自动即时收到 WhatsApp 订单更新，无需手动跟进。",
                         "无头架构与 RESTful API：完全分离的后端和前端基础设施，通过具有 CORS 保护和 Sanctum Token 安全层的高性能 API 路由连接。",
@@ -507,7 +507,7 @@ export const translations = {
             items: [
                 {
                     title: "Yalla ストア",
-                    desc: "高いパフォーマンスと最先端のセキュリティを提供するエンタープライズグレードの電子商取引システム。今回、シームレスに統合されたAIカスタマーサービスのイノベーションを導入しました。文脈記憶機能を備えたOpenAI LLMと高度なワークフロー自動化アーキテクチャを活用し、このシステムは24時間365日、インテリジェントで自動化された自然な人間のようなカスタマーサービスを提供します。安全なサーバー側実行のためにServer Actionsを使用し、Drizzle ORM（タイプセーフ）およびZustandの軽量な状態管理と組み合わせて、Yalla Storeは超高速で信頼性の高いインタラクティブなトランザクションを保証するエンドツーエンドのビジネスソリューションです。",
+                    desc: "高いパフォーマンスと最先端のセキュリティを提供するエンタープライズグレードの電子商取引システム。今回、シームレスに統合されたAIカスタマーサービスのイノベーションを導入しました。\n\n文脈記憶機能を備えたOpenAI LLMと高度なワークフロー自動化アーキテクチャを活用し、このシステムは24時間365日、インテリジェントで自動化された自然な人間のようなカスタマーサービスを提供します。\n\n安全なサーバー側実行のためにServer Actionsを使用し、Drizzle ORM（タイプセーフ）およびZustandの軽量な状態管理と組み合わせて、Yalla Storeは超高速で信頼性の高いインタラクティブなトランザクションを保証するエンドツーエンドのビジネスソリューションです。",
                     features: [
                         "Better Auth による安全性の高い認証", 
                         "Cloudinary 画像最適化と Zod 検証", 
@@ -518,7 +518,7 @@ export const translations = {
                 },
                 {
                     title: "Amar レンタカー",
-                    desc: "最新のヘッドレス（クライアントサーバー分離）アーキテクチャで設計されたエンタープライズ規模のレンタカープラットフォーム。フロントエンドはNext.js App Routerを使用して構築されており、完璧なSEOパフォーマンスと超高速のユーザーインターフェースを実現しています。舞台裏では、堅牢なLaravelバックエンドが中央ダッシュボードとして機能し、イベント駆動型アーキテクチャ（Webhooks）による高度な自動化システムを備えています。n8nと完全に統合してリアルタイムのWhatsApp通知を実現するこのシステムは、最小限の遅延でトランザクションの急増を処理するだけでなく、反復的な手動介入なしにシームレスなビジネス運用エクスペリエンスを作成するように設計されています。",
+                    desc: "最新のヘッドレス（クライアントサーバー分離）アーキテクチャで設計されたエンタープライズ規模のレンタカープラットフォーム。フロントエンドはNext.js App Routerを使用して構築されており、完璧なSEOパフォーマンスと超高速のユーザーインターフェースを実現しています。\n\n舞台裏では、堅牢なLaravelバックエンドが中央ダッシュボードとして機能し、イベント駆動型アーキテクチャ（Webhooks）による高度な自動化システムを備えています。\n\nn8nと完全に統合してリアルタイムのWhatsApp通知を実現するこのシステムは、最小限の遅延でトランザクションの急増を処理するだけでなく、反復的な手動介入なしにシームレスなビジネス運用エクスペリエンスを作成するように設計されています。",
                     features: [
                         "リアルタイムのWhatsApp自動化（n8n Webhooks経由）：非同期の通知システム。管理者が予約ステータスを変更するたびに、顧客はWhatsApp経由で注文の更新を自動的かつ即座に受け取り、手動でのフォローアップの必要性を排除します。",
                         "ヘッドレスアーキテクチャとRESTful API：完全に分離されたバックエンドとフロントエンドのインフラストラクチャ。CORS保護とSanctum Tokenセキュリティレイヤーを備えた高性能APIルートを通じて接続されます。",
@@ -621,7 +621,7 @@ export const translations = {
             items: [
                 {
                     title: "Tienda Yalla",
-                    desc: "Un sistema de comercio electrónico de grado empresarial que ofrece alto rendimiento y seguridad de vanguardia. Ahora cuenta con una innovación de Servicio al Cliente con IA integrada a la perfección. Impulsado por OpenAI LLM con capacidades de memoria contextual y una arquitectura de Automatización de Flujo de Trabajo Avanzada, este sistema proporciona un servicio al cliente inteligente, automatizado y natural similar al humano las 24 horas del día, los 7 días de la semana. Utilizando Server Actions para una ejecución segura del lado del servidor, combinado con Drizzle ORM (Type-Safe) y gestión de estado ligero de Zustand, Yalla Store es una solución empresarial de extremo a extremo que garantiza transacciones ultrarrápidas, confiables e interactivas.",
+                    desc: "Un sistema de comercio electrónico de grado empresarial que ofrece alto rendimiento y seguridad de vanguardia. Ahora cuenta con una innovación de Servicio al Cliente con IA integrada a la perfección.\n\nImpulsado por OpenAI LLM con capacidades de memoria contextual y una arquitectura de Automatización de Flujo de Trabajo Avanzada, este sistema proporciona un servicio al cliente inteligente, automatizado y natural similar al humano las 24 horas del día, los 7 días de la semana.\n\nUtilizando Server Actions para una ejecución segura del lado del servidor, combinado con Drizzle ORM (Type-Safe) y gestión de estado ligero de Zustand, Yalla Store es una solución empresarial de extremo a extremo que garantiza transacciones ultrarrápidas, confiables e interactivas.",
                     features: [
                         "Autenticación altamente segura con Better Auth", 
                         "Optimización de imágenes Cloudinary y validación Zod", 
@@ -632,7 +632,7 @@ export const translations = {
                 },
                 {
                     title: "Amar Alquiler de Coches",
-                    desc: "Una plataforma de alquiler de vehículos a escala empresarial diseñada con una arquitectura moderna Headless (Cliente-Servidor Desacoplado). El frontend está construido usando Next.js App Router para lograr un rendimiento SEO perfecto e interfaces de usuario ultrarrápidas. Detrás de escena, un robusto backend de Laravel actúa como un panel de control centralizado, equipado con sistemas de automatización avanzados a través de una arquitectura basada en eventos (Webhooks). Totalmente integrado con n8n para notificaciones de WhatsApp en tiempo real, este sistema está diseñado no solo para manejar picos de transacciones con una latencia mínima, sino también para crear una experiencia operativa comercial perfecta sin intervención manual repetitiva.",
+                    desc: "Una plataforma de alquiler de vehículos a escala empresarial diseñada con una arquitectura moderna Headless (Cliente-Servidor Desacoplado). El frontend está construido usando Next.js App Router para lograr un rendimiento SEO perfecto e interfaces de usuario ultrarrápidas.\n\nDetrás de escena, un robusto backend de Laravel actúa como un panel de control centralizado, equipado con sistemas de automatización avanzados a través de una arquitectura basada en eventos (Webhooks).\n\nTotalmente integrado con n8n para notificaciones de WhatsApp en tiempo real, este sistema está diseñado no solo para manejar picos de transacciones con una latencia mínima, sino también para crear una experiencia operativa comercial perfecta sin intervención manual repetitiva.",
                     features: [
                         "Automatización de WhatsApp en tiempo real (a través de n8n Webhooks): Sistema de notificación asíncrono. Los clientes reciben actualizaciones de pedidos de forma automática e instantánea a través de WhatsApp cada vez que el administrador cambia el estado de la reserva, eliminando la necesidad de seguimientos manuales.",
                         "Arquitectura Headless y API RESTful: Infraestructura de backend y frontend totalmente separada, conectada a través de rutas API de alto rendimiento con protección CORS y capas de seguridad Sanctum Token.",
