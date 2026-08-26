@@ -1933,8 +1933,8 @@ footer p {
         height: auto;
         min-height: 100vh;
         overflow: visible;
-        padding: 5rem 0 2rem 0;
-        /* Add top padding to avoid navbar overlap */
+        padding: 4rem 0 3rem 0;
+        /* Balanced top padding so title is not too high, but not too low */
     }
 
     .hero-content-new {
@@ -1942,9 +1942,9 @@ footer p {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         height: auto;
-        padding-top: 2rem;
+        padding-top: 0;
     }
 
     .hero-title-wrapper {
@@ -1952,16 +1952,16 @@ footer p {
         top: auto;
         left: auto;
         transform: none;
-        text-align: center;
+        text-align: left;
         width: 100%;
-        margin-bottom: 2rem;
-        padding: 0 1rem;
+        margin-bottom: 5.5rem; /* Push the social icons down, adjusted to fit with new top padding */
+        padding: 0 1.5rem;
         z-index: 2;
         order: 1;
     }
 
     .hero-accent-line {
-        margin: 1rem auto 0;
+        margin: 1rem 0 0 0;
     }
 
     .hero-socials {
@@ -1970,13 +1970,19 @@ footer p {
         left: auto;
         transform: none;
         flex-direction: row;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         width: 100%;
+        padding: 0 1.5rem;
         margin-top: 0;
-        margin-bottom: 2.5rem;
+        margin-bottom: 1rem;
         order: 2;
-        gap: 2.5rem;
+        gap: 0.6rem; /* Bring the icons much closer together */
+    }
+    
+    .hero-socials a {
+        font-size: 1.3rem;
+        text-shadow: 0 4px 12px rgba(0,0,0,0.9);
     }
 
     .hero-right {
@@ -1985,28 +1991,41 @@ footer p {
         right: auto;
         left: auto;
         transform: none;
-        text-align: center;
+        text-align: left;
         width: 100%;
-        padding: 0 1rem;
-        margin-bottom: 2rem;
+        padding: 0 1.5rem;
+        margin-bottom: 1rem;
         order: 3;
     }
 
     .hero-title-big {
-        font-size: clamp(2.5rem, 10vw, 4rem);
+        font-size: clamp(1.8rem, 8vw, 3rem);
         line-height: 1.2;
         letter-spacing: -1px;
+        text-shadow: 0 6px 20px rgba(0,0,0,0.9);
     }
 
     .intro-heading {
-        font-size: 1.25rem;
-        margin-bottom: 1rem;
+        font-size: 1.05rem;
+        margin-bottom: 0.5rem;
+        line-height: 1.3;
+        text-shadow: 0 4px 12px rgba(0,0,0,0.9);
     }
 
     .intro-text {
-        font-size: 0.75rem;
-        line-height: 1.7;
-        color: rgba(255, 255, 255, 0.7);
+        font-size: 0.8rem;
+        line-height: 1.5;
+        color: rgba(255, 255, 255, 0.95);
+        text-shadow: 0 4px 12px rgba(0,0,0,0.9);
+    }
+    
+    .bg-video {
+        object-position: center 20%;
+    }
+    
+    .scroll-indicator {
+        bottom: 0.5rem;
+        text-shadow: 0 4px 12px rgba(0,0,0,0.9);
     }
 
     /* About & Projects Adjustments */
