@@ -18,7 +18,7 @@ const Projects = () => {
             title: translatedProjects[0]?.title || "Yalla Store",
             tech: [
                 { name: "Next.js 15", icon: "fab fa-react", color: "#ffffff" },
-                { name: "Tailwind v4", icon: "fas fa-wind", color: "#06B6D4" },
+                { name: "Tailwind v4", icon: "fas fa-wind", customSvg: <svg viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em"><path d="M12.001,4.8c-3.208,0-5.245,1.584-6.109,4.751c1.276-1.521,2.839-2.3,4.688-2.338c1.332-0.027,2.278,0.41,3.167,1.207 c1.056,0.947,2.235,2.003,5.08,2.003c3.208,0,5.245-1.584,6.109-4.751c-1.276,1.521-2.839,2.3-4.688,2.338 c-1.332,0.027-2.278-0.41-3.167-1.207C16.024,5.857,14.846,4.8,12.001,4.8z M5.892,10.519c-3.208,0-5.245,1.584-6.109,4.751 c1.276-1.521,2.839-2.3,4.688-2.338c1.332-0.027,2.278,0.41,3.167,1.207c1.056,0.947,2.235,2.003,5.08,2.003 c3.208,0,5.245-1.584,6.109-4.751c-1.276,1.521-2.839,2.3-4.688,2.338c-1.332,0.027-2.278-0.41-3.167-1.207 C9.915,11.577,8.737,10.519,5.892,10.519z"/></svg>, color: "#06B6D4" },
                 { name: "PostgreSQL", icon: "fas fa-database", color: "#336791" },
                 { name: "Zustand", icon: "fas fa-cogs", color: "#F7DF1E" },
                 { name: "OpenAI", icon: "fas fa-robot", color: "#10A37F" }
@@ -89,7 +89,7 @@ const Projects = () => {
             title: translatedProjects[5]?.title || "Joka Joki - VIP E-Sports Management System",
             tech: [
                 { name: "Next.js 15", icon: "fab fa-react", color: "#ffffff" },
-                { name: "Tailwind CSS", icon: "fas fa-wind", color: "#06B6D4" },
+                { name: "Tailwind CSS", icon: "fas fa-wind", customSvg: <svg viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em"><path d="M12.001,4.8c-3.208,0-5.245,1.584-6.109,4.751c1.276-1.521,2.839-2.3,4.688-2.338c1.332-0.027,2.278,0.41,3.167,1.207 c1.056,0.947,2.235,2.003,5.08,2.003c3.208,0,5.245-1.584,6.109-4.751c-1.276,1.521-2.839,2.3-4.688,2.338 c-1.332,0.027-2.278-0.41-3.167-1.207C16.024,5.857,14.846,4.8,12.001,4.8z M5.892,10.519c-3.208,0-5.245,1.584-6.109,4.751 c1.276-1.521,2.839-2.3,4.688-2.338c1.332-0.027,2.278,0.41,3.167,1.207c1.056,0.947,2.235,2.003,5.08,2.003 c3.208,0,5.245-1.584,6.109-4.751c-1.276,1.521-2.839,2.3-4.688,2.338c-1.332,0.027-2.278-0.41-3.167-1.207 C9.915,11.577,8.737,10.519,5.892,10.519z"/></svg>, color: "#06B6D4" },
                 { name: "PostgreSQL", icon: "fas fa-database", color: "#336791" },
                 { name: "Prisma ORM", icon: "fas fa-database", color: "#5A67D8" },
                 { name: "TypeScript", icon: "fas fa-code", color: "#3178C6" }
@@ -326,7 +326,13 @@ const Projects = () => {
                                                         borderColor: t.color === '#ffffff' ? 'color-mix(in srgb, var(--text-main) 40%, transparent)' : `${t.color}40`
                                                     }}
                                                 >
-                                                    <i className={t.icon}></i> {t.name}
+                                                    {t.customSvg ? (
+                                                        <span style={{ display: "inline-flex", alignItems: "center", marginRight: "6px", fontSize: "1.1em" }}>
+                                                            {t.customSvg}
+                                                        </span>
+                                                    ) : (
+                                                        <i className={t.icon}></i>
+                                                    )} {t.name}
                                                 </span>
                                             ))}
                                         </div>
