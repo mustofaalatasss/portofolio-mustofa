@@ -82,7 +82,7 @@ const Projects = () => {
             desc: translatedProjects[4]?.desc || "Platform komunitas dengan arsitektur berkinerja tinggi. Proyek ini mendemonstrasikan keahlian tingkat lanjut dalam merancang animasi modern (GSAP) untuk menciptakan efek Scroll-Scrubbing sinematik, memberikan impresi visual mendalam layaknya sebuah video game AAA. Sangat cocok untuk campaign pemasaran yang membutuhkan interaksi pengguna tingkat tinggi.",
             features: translatedProjects[4]?.features || ["Advanced DOM Masking & Radial Reveal Effects", "React Hook teroptimasi untuk stabilitas 60 FPS", "Arsitektur UI modular dan sangat scalable"],
             images: ["rockstar-1.png", "rockstar-2.png", "rockstar-3.png", "rockstar-4.png"],
-            link: "https://fanbaserockstar.web.id"
+            link: "https://gta6-mustofa.mustofaalatasss.workers.dev/"
         },
         {
             id: 6,

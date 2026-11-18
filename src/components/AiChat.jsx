@@ -1,6 +1,18 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 
+const renderFormattedText = (text) => {
+    if (!text) return null;
+    // Bersihkan asterisks ganda/tunggal jika ada, dan render bagian penting dengan rapi
+    const parts = text.split(/(\*\*.*?\*\*)/g);
+    return parts.map((part, i) => {
+        if (part.startsWith('**') && part.endsWith('**')) {
+            return <strong key={i} style={{ color: 'var(--accent-color, #f5a623)' }}>{part.slice(2, -2)}</strong>;
+        }
+        return part;
+    });
+};
+
 const AiChat = () => {
     const { t } = useLanguage();
     const [isOpen, setIsOpen] = useState(false);
@@ -99,7 +111,7 @@ const AiChat = () => {
                                 {msg.sender === 'ai' && (
                                     <img src="/images/ai-bubble.png" alt="AI" className="message-avatar" />
                                 )}
-                                <div className="message-content">{msg.text}</div>
+                                <div className="message-content">{renderFormattedText(msg.text)}</div>
                             </div>
                         ))}
                         {isTyping && (

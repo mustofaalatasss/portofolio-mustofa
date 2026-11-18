@@ -11,7 +11,7 @@ Struktur & Konten (Vanilla HTML5)
 "Karena ini adalah Landing Page profil, website ini adalah tipe Static Website. Kelebihannya: tidak memerlukan biaya server mahal, tidak bisa di-hack/disusupi (karena tidak ada database), dan bisa ditaruh di hosting gratis atau murah manapun dengan jaminan selalu online 24/7."
 
 Web 2
-fanbaserockstar.web.id
+https://gta6-mustofa.mustofaalatasss.workers.dev/
 1. Arsitektur Ganda (Hybrid / Transisi)
 Proyek ini memiliki dua teknologi yang berjalan di dalamnya:
 Fondasi Klasik (Root Folder): Di bagian luar (file index.html), website ini dibangun menggunakan Vanilla Web Technologies (HTML/CSS murni). Sangat ringan, menggunakan CSS Custom Properties (variabel) untuk sistem warna gelap premium, neon merah, dan emas (khas Rockstar Games).
