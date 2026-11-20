@@ -284,8 +284,15 @@ const Projects = () => {
                                             src={`/images/${project.images[0]}`}
                                             alt={project.title}
                                             onError={(e) => {
-                                                e.target.onerror = null;
-                                                e.target.src = `https://placehold.co/1200x800/1a1a24/e5a93d?text=Taruh+${project.images[0]}+di+public/images`;
+                                                if (!e.target.dataset.retried) {
+                                                    e.target.dataset.retried = 'true';
+                                                    setTimeout(() => {
+                                                        e.target.src = `/images/${project.images[0]}?retry=${Date.now()}`;
+                                                    }, 1500);
+                                                } else {
+                                                    e.target.onerror = null;
+                                                    e.target.src = `https://placehold.co/1200x800/1a1a24/e5a93d?text=Taruh+${project.images[0]}+di+public/images`;
+                                                }
                                             }}
                                         />
                                         <div className="project-overlay">
@@ -377,8 +384,15 @@ const Projects = () => {
                                                         src={`/images/${imgSrc}`}
                                                         alt={`${activeProject.title} screenshot ${idx + 1}`}
                                                         onError={(e) => {
-                                                            e.target.onerror = null;
-                                                            e.target.src = `https://placehold.co/1200x800/1a1a24/e5a93d?text=Taruh+${imgSrc}+di+public/images`;
+                                                            if (!e.target.dataset.retried) {
+                                                                e.target.dataset.retried = 'true';
+                                                                setTimeout(() => {
+                                                                    e.target.src = `/images/${imgSrc}?retry=${Date.now()}`;
+                                                                }, 1500);
+                                                            } else {
+                                                                e.target.onerror = null;
+                                                                e.target.src = `https://placehold.co/1200x800/1a1a24/e5a93d?text=Taruh+${imgSrc}+di+public/images`;
+                                                            }
                                                         }}
                                                     />
                                                 </div>
