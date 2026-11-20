@@ -2046,6 +2046,66 @@ footer p {
     .project-card.reverse .project-info {
         margin: -2rem 0.5rem 0 0.5rem;
     }
+
+    /* Project Modal Mobile Responsiveness */
+    .project-modal-content {
+        width: 92%;
+        max-height: 88vh;
+        border-radius: 16px;
+    }
+
+    .modal-close {
+        top: 1rem;
+        right: 1rem;
+        padding: 0.4rem 0.8rem;
+        font-size: 0.75rem;
+    }
+
+    .modal-inner {
+        padding: 1.25rem;
+        padding-top: 3.5rem;
+    }
+
+    .modal-header {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 1.2rem;
+        margin-bottom: 1.5rem;
+        padding-bottom: 1.2rem;
+    }
+
+    .modal-header h2 {
+        font-size: 1.8rem;
+    }
+
+    .modal-tech-stack {
+        gap: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .modal-header-link {
+        margin: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0.8rem 1.2rem;
+        font-size: 0.95rem;
+        box-shadow: 0 4px 15px rgba(229, 169, 61, 0.25);
+    }
+
+    .modal-gallery {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .gallery-item:not(.featured):hover,
+    .gallery-item.featured:hover,
+    .modal-gallery.vertical .gallery-item:hover {
+        transform: none !important;
+    }
 }
 
 /* =========================================
